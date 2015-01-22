@@ -1,0 +1,759 @@
+import requests
+html = requests.get('url = 'http://www.learngaelic.net/dictionary/?abairt=%s').text % 'funny'
+# OUT:   File "<input>", line 1
+# OUT:     html = requests.get('url = 'http://www.learngaelic.net/dictionary/?abairt=%s').text % 'funny'
+# OUT:                                    ^
+# OUT: SyntaxError: invalid syntax
+html = requests.get('url = "http://www.learngaelic.net/dictionary/?abairt=%s").text % 'funny'
+# OUT:   File "<input>", line 1
+# OUT:     html = requests.get('url = "http://www.learngaelic.net/dictionary/?abairt=%s").text % 'funny'
+# OUT:                                                                                                ^
+# OUT: SyntaxError: invalid syntax
+html = requests.get('url = "http://www.learngaelic.net/dictionary/?abairt=%s").text % "funny"
+# OUT:   File "<input>", line 1
+# OUT:     html = requests.get('url = "http://www.learngaelic.net/dictionary/?abairt=%s").text % "funny"
+# OUT:                                                                                                 ^
+# OUT: SyntaxError: EOL while scanning string literal
+html = requests.get('url = "http://www.learngaelic.net/dictionary/?abairt=%s").text % word
+# OUT:   File "<input>", line 1
+# OUT:     html = requests.get('url = "http://www.learngaelic.net/dictionary/?abairt=%s").text % word
+# OUT:                                                                                              ^
+# OUT: SyntaxError: EOL while scanning string literal
+html = requests.get("http://www.learngaelic.net/dictionary/?abairt=%s").text % "funny"
+# OUT: Traceback (most recent call last):
+# OUT:   File "<input>", line 1, in <module>
+# OUT: ValueError: unsupported format character ';' (0x3b) at index 7737
+html
+# OUT: Traceback (most recent call last):
+# OUT:   File "<input>", line 1, in <module>
+# OUT: NameError: name 'html' is not defined
+html = requests.get("http://www.learngaelic.net/dictionary/?abairt=%s")
+html
+# OUT: <Response [200]>
+html.text
+# OUT: u'\n\n\n<!DOCTYPE html>\n\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">\n  <head>\n    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>\n\t<meta name="apple-mobile-web-app-capable" content="yes" />\n\t<meta name="apple-mobile-web-app-title" content="LG Dictionary" />\n\t<meta name="viewport" content="width=410" /> <!-- width=device-width gives "width of device" -->\n\t<meta name="description" content="A fast and easy-to-use modern Gaelic dictionary. ,_, Faclair \xf9r, luath agus goireasach."/>\n\n\n\t<link rel="apple-touch-icon" href="/dictionary/apple-touch-icon.png"/>\n\t\n\t<link rel="stylesheet" type="text/css" href="/css/main.css" />\n\t<link rel="stylesheet" type="text/css" href="/css/nav.css" />\n\t<!--[if lte IE 7]> <link rel="stylesheet" type="text/css" href="/css/ie.css" /> <![endif]-->\n\t<!--[if lte IE 6]> <link rel="stylesheet" type="text/css" href="/css/ie6.css" /> <![endif]-->\n    <link type="text/css" rel="stylesheet" href="Faclair.css" />\n\n\n\t<!--[if !IE]> -->\n\t<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" id="mobile-css"/>\n\t\n\t<!--<![endif]-->\n\n\n    <title>The LearnGaelic Dictionary</title>\n    \n\t<!-- gwt JS -->\n    <script type="text/javascript" src="faclair/faclair.nocache.js"></script>\n\t<script type="text/javascript">\n\t\t\n\t\t\n\n\t</script>\n\t\n\t<!-- load, and call the javascript files that handle things like language changes -->\n\t<link rel="shortcut icon" href="/favicon.ico" />\n\n<script src="/js/jquery.js" type="text/javascript" charset="utf-8"></script>\n<script src="/js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>\n<script src="/js/jquery.url.js"  type="text/javascript" charset="utf-8"></script>\n<script src="/js/my.js" type="text/javascript" charset="utf-8"></script>\n<script type="text/javascript">$(document).ready(function() { doStuffWhenDomIsReady(); }); </script>\n\n<!-- GA tracking and Google Fonts loading -->\n<script type="text/plain" class="cc-onconsent-analytics">\n\n  var _gaq = _gaq || [];\n  _gaq.push([\'_setAccount\', \'UA-24635625-1\']);\n  _gaq.push([\'_trackPageview\']);\n\n  (function() {\n    var ga = document.createElement(\'script\'); ga.type = \'text/javascript\'; ga.async = true;\n    ga.src = (\'https:\' == document.location.protocol ? \'https://ssl\' : \'http://www\') + \'.google-analytics.com/ga.js\';\n    var s = document.getElementsByTagName(\'script\')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n</script>\n\n<script type="text/javascript">\n\nWebFontConfig = {\n    google: { families: [ \'Coustard::latin\', \'Covered+By+Your+Grace::latin\', \'Open+Sans:400,600,300:latin\' ] }\n  };\n  (function() {\n    var wf = document.createElement(\'script\');\n    wf.src = (\'https:\' == document.location.protocol ? \'https\' : \'http\') +\n      \'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js\';\n    wf.type = \'text/javascript\';\n    wf.async = \'true\';\n    var s = document.getElementsByTagName(\'script\')[0];\n    s.parentNode.insertBefore(wf, s);\n  })();\n\n</script>\n\n\n<!--[if lte IE 6]>\n<style type="text/css">\nbody {\n\tbehavior: url(\'/css/csshover3.htc\');\n}\nimg { behavior: url(\'/js/iepngfix.htc\'); }\n</style>\n<![endif]-->\n<!--[if lte IE 9]> \n<style type="text/css">\ndiv.block {\n\tbehavior: url(\'/js/PIE.htc\');\n\tposition: relative;\n}\n</style>\n <![endif]-->\n\n\t\n\n\t<script type="text/javascript">\n\t\t$(document).ready(function()\n\t\t{\n\t\t\t$(\'#no-mobile-link\').click(function(event)\n\t\t\t\t{\n\t\t\t\t\t$(\'#mobile-css\').prop(\'disabled\', true);\n\t\t\t\t\t$(\'#mobile-css\').remove();\n\t\t\t\t\n\t\t\t\t\tif (event != null) event.preventDefault();\n\t\t\t});\n\t\t});\n\t</script>\n\t\n\t\n\t\n\t\n\t<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->\n<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>\n<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>\n<script type="text/javascript">\n// <![CDATA[\ncc.initialise({\n\tcookies: {\n\t\tsocial: {},\n\t\tanalytics: {},\n\t\tnecessary: {}\n\t},\n\tsettings: {\n\t\tconsenttype: "implicit",\n\t\tstyle: "light",\n\t\tonlyshowbanneronce: true,\n\t\thideprivacysettingstab: true\n\t}\n});\n// ]]>\n</script>\n<!-- End Cookie Consent plugin -->\n\n\t\n  </head>\n\n  <body>\n\n    <!--  ======= include the top section of the page, containing nav ======== -->\n\t<div id="header">\n\t\t\n\n\n\n\n\n\n<div id="logo"><a href="/index.jsp" class="noyellow"><img src="/images/logo_160x100.png" width="160" height="100" alt="the LearnGaelic logo" title="LearnGaelic home" /></a></div>\n\n\n\t\n<div id="searchcontainer">\n\t\n\t\t\n\t\t\t\n\t\t\t<a class="rtab indentb" href="mailto:mairi@learngaelic.net">\n\t\t\t<span title="Email us about any aspect of learning Gaelic.">\n\t\t\t<img src="/images/email-new.png" height="20" alt="Emailicon" />\n\t\t\t</span>\n\t\t\t</a>\n\t\t\t\t\n\t\t\t\n\t\t\t<div class="rtab indentb" >\n\t\t\t<span title="Speak to somebody (for free) about how you can start learning Gaelic today! (Hours of operation: 0900-1700, Mon-Fri)">\n\t\t\t<img src="/images/ICONS-MAIN-BLUE/Icon_Phone.png" height="20" alt="Phoneicon" /> 0800 1712994  </span>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t<a class="rtab indentb" href="/dictionary/">\n\t\t\t<img src="/images/ICONS-MAIN-BLUE/Icon_Book.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="dictionary" class="dicImg" /> \n\t\t\t<span class="langEn">Dictionary </span>\n\t\t\t<span class="langGd">Faclair </span></a>\n\n\t\t\t<a class="rtab indentb" href="/thesaurus/">\n\t\t\t<img src="/images/co-fhaclair-14x20.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="thesaurus" class="dicImg" /> \n\t\t\t<span class="langEn">Thesaurus </span>\n\t\t\t<span class="langGd">Co-fhaclair </span></a>\n\t\t\t\t\n\t \n\t\n\t\t\t\t <div class="rtab">\n\t\t<form action="/search/search.jsp" method="get">\n\t\t\t<div>\n\t\t\t\t<input id="forminput" type="text" name="query" value="search the site..."/>\n\t\t\t\t<input type="hidden" name="order" value="relevance_desc"/>\n\t\t\t\t<input type="hidden" name="lang" value="en" class="formHiddenLang"/>\n\t\t\t<button type="submit" title="search the LearnGaelic site for a word or phrase" id="searchbutton">\n\t\t\t\t<span class="langEn">go</span>\n\t\t\t\t<span class="langGd">lorg</span>\n\t\t\t</button></div>\n\t\t</form>\n\t</div>\n\t\n</div>\n\n\n\n<a id="en_gd" class="indentb" href="#"><span class="langEn">G\xe0idhlig</span><span class="langGd">English</span></a>\n\n<!-- this contains the "tabs" used for navigation, and the English -> Gaelic button -->\n\n<ul id="nav">\n\t<li class="tab"><a id="datatab" href="/info/" class="off"><span class="langEn">Info</span><span class="langGd">Fios</span></a></li>\n\t<li class="tab"><a id="toolstab" href="/tools/" class="on"><span class="langEn">Tools</span><span class="langGd">Goireasan</span></a></li>\n\t<li class="tab"><a id="begintab" href="/beginner/" class="off"><span class="langEn">Beginner</span><span class="langGd">T\xf2iseachadh</span></a></li>\n\t<li class="tab"><a id="intertab" href="/intermediate/" class="off"><span class="langEn">Intermediate</span><span class="langGd">Eadar-mheadhanach</span></a></li>\n\t<li class="tab"><a id="advtab" href="/advanced/" class="off"><span class="langEn">Advanced</span><span class="langGd">Adhartach</span></a></li>\n\t<li class="tab"><a id="sectab" href="/secondary/" class="off"><span class="langEn">Secondary</span><span class="langGd">\xc0rd-sgoil</span></a></li>\n\t<li class="tab"><a id="pritab" href="/primary/" class="off"><span class="langEn">Primary</span><span class="langGd">Bun-sgoil</span></a></li>\n\t<li class="tab"><a id="pretab" href="/underfives/" class="off"><span class="langEn">Under fives</span><span class="langGd">Fo ch\xf2ig</span></a></li>\n\t<li id="cookieslink"><a href="/cookies.jsp" title="Information about cookies used by LearnGaelic.net">Cookies</a></li>\n</ul>\n\n\n\t</div>\n\t\n    <noscript>\n      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">\n        The LearnGaelic dictionary needs Javascript to work. \n      </div>\n    </noscript>\n\n\t<div id="main">\n\n\t    <h1><span class="langEn">LearnGaelic Dictionary</span><span class="langGd">Faclair LearnGaelic</span></h1>\n\n\t\t<h2 id="afbcredit"><span class="langEn">In association with <a href="http://www.faclair.com">Am Faclair Beag</a></span><span class="langGd">Ann an co-cheangal ris <a href="http://www.faclair.com">An Fhaclair Bheag</a></span></h2>\n\t\t\n\t\t<div id="dicUI">\n\t\t\t<div id="wordFieldContainer"></div>\n\t\t\t<div id="buttonContainer"></div>\n\t\t\n\t\t\t<div id="langContainer"></div>\n  \n\t\t\t<div id="wildcardContainer"></div>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t<p style="color:red;" id="errorLabelContainer"></p>\n\t      \n\t\t<p id="waitContainer" style="text-align: center"></p>\n\n\n\t\t<div id="resultsContainer"></div>\n\t\t\n\t\t<!-- div id="linkContainer"></div -->\n\t\t<div id="errorContainer"></div>\n\n\t\t<p class="dicinfo">\n\t\t\tWe are gradually adding audio for all the terms in the dictionary. This audio is being produced by BBC G\xe0idhlig (<a href="http://www.bbc.co.uk/alba">bbc.co.uk/alba</a>).\n\t\t\n\t\t\t<br/><br/>\n\t\t\n\t\t\tDictionary-related thoughts, comments or criticisms? Drop an email to <a href="mailto:dictionary@learngaelic.net">dictionary@learngaelic.net</a>.\n\t\t\t\n\t\t\t<br/><br/>\n\t\t\t<span id="no-mobile"><a href="#" id="no-mobile-link"><span class="langEn">Desktop version</span> <span class="langGd">Tionndadh l\xe0n-sgrion</span></a></span>\n\t\t</p>\n\t</div>\n\t<!-- ========= End of main section ========== -->\n\t\n\t<!-- ========= The footer ========== -->\n\t<div id="footer">\n\t\t\n\n\n\n\n\t<ul class="blockleft">\n\t\t<li><span class="langEn">A partnership of</span><span class="langGd">Co-bhanntachd eadar</span></li>\n\t\t<li><a href="http://www.gaidhlig.org.uk/"><span class="langEn">B\xf2rd na G\xe0idhlig</span><span class="langGd">B\xf2rd na G\xe0idhlig</span></a></li>\n\t\t<li><a href="http://www.mgalba.com/"><span class="langEn">MG ALBA</span><span class="langGd">MG ALBA</span></a></li>\n\t\t<li><a href="http://www.bbc.co.uk/alba/"><span class="langEn">BBC</span><span class="langGd">BBC</span></a></li>\n\t\t<li><a href="http://www.gla.ac.uk/subjects/celticgaelic/"><span class="langEn">Board of Celtic Studies Scotland</span><span class="langGd">B\xf2rd na Ceiltis (Alba)</span></a></li>\n\t\t<li><a href="http://www.smo.uhi.ac.uk/"><span class="langEn">Sabhal M\xf2r Ostaig</span><span class="langGd">Sabhal M\xf2r Ostaig</span></a></li>\n\t</ul>\n\n\n\t<ul class="blockright">      \n\t\t<li><span class="langEn">In co-operation with</span><span class="langGd">A\u2019 co-obrachadh le</span></li>\n\t\t<li><a href="http://www.canan.co.uk/"><span class="langEn">C\xe0nan</span><span class="langGd">C\xe0nan</span></a></li>\n\t\t<li><a href="http://www.cli.org.uk/"><span class="langEn">Cl\xec G\xe0idhlig</span><span class="langGd">Cl\xec G\xe0idhlig</span></a></li>\n\t\t<li><a href="http://www.cne-siar.gov.uk/"><span class="langEn">Comhairle nan Eilean Siar</span><span class="langGd">Comhairle nan Eilean Siar</span></a></li>\n\t\t<li><a href="http://www.educationscotland.gov.uk/"><span class="langEn">Education Scotland</span><span class="langGd">Foghlam Alba</span></a></li>\n\t\t<li><a href="http://www.faclair.com/"><span class="langEn">Am Faclair Beag</span><span class="langGd">Am Faclair Beag</span></a></li>\n\t\t<li><a href="http://www.gaelicplacenames.org/"><span class="langEn">Gaelic Place-Names of Scotland</span><span class="langGd">Ainmean-\xc0ite na h-Alba (A\xc0A)</span></a></li>\n\t\t<li><a href="http://www.mormedia.co.uk/"><span class="langEn">M\xf2r Media</span><span class="langGd">M\xf2r Media</span></a></li>\t\t \n\t\t<li><a href="http://www.open.ac.uk/"><span class="langEn">Open University</span><span class="langGd">Open University</span></a></li>\n\t\t<li><a href="http://www.sealgar.co.uk/">Sealgar</a></li>\n\t\t<li><a href="http://www.sqa.org.uk/">SQA</a></li>\n\t\t<li><a href="http://www.storlann.co.uk/">St\xf2rlann</a></li>\n\t\t<li><a href="http://www.ulpan.co.uk/">\xd9lpan</a></li>\n\t </ul>\n\t\n\t<a href="#" class="cc-privacy-link" style="display: block; float: right; height: 100%;">Privacy settings</a>\n\n\t<div style="clear: both;"></div>\n\n\t</div>\n\t\n  </body>\n</html>\n'
+
+
+html = requests.get("http://www.learngaelic.net/dictionary/?abairt=%r") % "funny"
+# OUT: Traceback (most recent call last):
+# OUT:   File "<input>", line 1, in <module>
+# OUT: TypeError: unsupported operand type(s) for %: 'Response' and 'str'
+html = requests.get("http://www.learngaelic.net/dictionary/?abairt=%s" % "funny")
+html
+# OUT: <Response [200]>
+html = html.text
+html
+# OUT: u'\n\n\n<!DOCTYPE html>\n\n<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">\n  <head>\n    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>\n\t<meta name="apple-mobile-web-app-capable" content="yes" />\n\t<meta name="apple-mobile-web-app-title" content="LG Dictionary" />\n\t<meta name="viewport" content="width=410" /> <!-- width=device-width gives "width of device" -->\n\t<meta name="description" content="A fast and easy-to-use modern Gaelic dictionary. ,_, Faclair \xf9r, luath agus goireasach."/>\n\n\n\t<link rel="apple-touch-icon" href="/dictionary/apple-touch-icon.png"/>\n\t\n\t<link rel="stylesheet" type="text/css" href="/css/main.css" />\n\t<link rel="stylesheet" type="text/css" href="/css/nav.css" />\n\t<!--[if lte IE 7]> <link rel="stylesheet" type="text/css" href="/css/ie.css" /> <![endif]-->\n\t<!--[if lte IE 6]> <link rel="stylesheet" type="text/css" href="/css/ie6.css" /> <![endif]-->\n    <link type="text/css" rel="stylesheet" href="Faclair.css" />\n\n\n\t<!--[if !IE]> -->\n\t<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" id="mobile-css"/>\n\t\n\t<!--<![endif]-->\n\n\n    <title>The LearnGaelic Dictionary</title>\n    \n\t<!-- gwt JS -->\n    <script type="text/javascript" src="faclair/faclair.nocache.js"></script>\n\t<script type="text/javascript">\n\t\t\n\t\tvar search_term = "funny";\nvar dictModeEnGd = true;\n\n\n\t</script>\n\t\n\t<!-- load, and call the javascript files that handle things like language changes -->\n\t<link rel="shortcut icon" href="/favicon.ico" />\n\n<script src="/js/jquery.js" type="text/javascript" charset="utf-8"></script>\n<script src="/js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>\n<script src="/js/jquery.url.js"  type="text/javascript" charset="utf-8"></script>\n<script src="/js/my.js" type="text/javascript" charset="utf-8"></script>\n<script type="text/javascript">$(document).ready(function() { doStuffWhenDomIsReady(); }); </script>\n\n<!-- GA tracking and Google Fonts loading -->\n<script type="text/plain" class="cc-onconsent-analytics">\n\n  var _gaq = _gaq || [];\n  _gaq.push([\'_setAccount\', \'UA-24635625-1\']);\n  _gaq.push([\'_trackPageview\']);\n\n  (function() {\n    var ga = document.createElement(\'script\'); ga.type = \'text/javascript\'; ga.async = true;\n    ga.src = (\'https:\' == document.location.protocol ? \'https://ssl\' : \'http://www\') + \'.google-analytics.com/ga.js\';\n    var s = document.getElementsByTagName(\'script\')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n</script>\n\n<script type="text/javascript">\n\nWebFontConfig = {\n    google: { families: [ \'Coustard::latin\', \'Covered+By+Your+Grace::latin\', \'Open+Sans:400,600,300:latin\' ] }\n  };\n  (function() {\n    var wf = document.createElement(\'script\');\n    wf.src = (\'https:\' == document.location.protocol ? \'https\' : \'http\') +\n      \'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js\';\n    wf.type = \'text/javascript\';\n    wf.async = \'true\';\n    var s = document.getElementsByTagName(\'script\')[0];\n    s.parentNode.insertBefore(wf, s);\n  })();\n\n</script>\n\n\n<!--[if lte IE 6]>\n<style type="text/css">\nbody {\n\tbehavior: url(\'/css/csshover3.htc\');\n}\nimg { behavior: url(\'/js/iepngfix.htc\'); }\n</style>\n<![endif]-->\n<!--[if lte IE 9]> \n<style type="text/css">\ndiv.block {\n\tbehavior: url(\'/js/PIE.htc\');\n\tposition: relative;\n}\n</style>\n <![endif]-->\n\n\t\n\n\t<script type="text/javascript">\n\t\t$(document).ready(function()\n\t\t{\n\t\t\t$(\'#no-mobile-link\').click(function(event)\n\t\t\t\t{\n\t\t\t\t\t$(\'#mobile-css\').prop(\'disabled\', true);\n\t\t\t\t\t$(\'#mobile-css\').remove();\n\t\t\t\t\n\t\t\t\t\tif (event != null) event.preventDefault();\n\t\t\t});\n\t\t});\n\t</script>\n\t\n\t\n\t\n\t\n\t<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->\n<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>\n<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>\n<script type="text/javascript">\n// <![CDATA[\ncc.initialise({\n\tcookies: {\n\t\tsocial: {},\n\t\tanalytics: {},\n\t\tnecessary: {}\n\t},\n\tsettings: {\n\t\tconsenttype: "implicit",\n\t\tstyle: "light",\n\t\tonlyshowbanneronce: true,\n\t\thideprivacysettingstab: true\n\t}\n});\n// ]]>\n</script>\n<!-- End Cookie Consent plugin -->\n\n\t\n  </head>\n\n  <body>\n\n    <!--  ======= include the top section of the page, containing nav ======== -->\n\t<div id="header">\n\t\t\n\n\n\n\n\n\n<div id="logo"><a href="/index.jsp" class="noyellow"><img src="/images/logo_160x100.png" width="160" height="100" alt="the LearnGaelic logo" title="LearnGaelic home" /></a></div>\n\n\n\t\n<div id="searchcontainer">\n\t\n\t\t\n\t\t\t\n\t\t\t<a class="rtab indentb" href="mailto:mairi@learngaelic.net">\n\t\t\t<span title="Email us about any aspect of learning Gaelic.">\n\t\t\t<img src="/images/email-new.png" height="20" alt="Emailicon" />\n\t\t\t</span>\n\t\t\t</a>\n\t\t\t\t\n\t\t\t\n\t\t\t<div class="rtab indentb" >\n\t\t\t<span title="Speak to somebody (for free) about how you can start learning Gaelic today! (Hours of operation: 0900-1700, Mon-Fri)">\n\t\t\t<img src="/images/ICONS-MAIN-BLUE/Icon_Phone.png" height="20" alt="Phoneicon" /> 0800 1712994  </span>\n\t\t\t</div>\n\t\t\t\n\t\t\t\t\n\t\t\t<a class="rtab indentb" href="/dictionary/">\n\t\t\t<img src="/images/ICONS-MAIN-BLUE/Icon_Book.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="dictionary" class="dicImg" /> \n\t\t\t<span class="langEn">Dictionary </span>\n\t\t\t<span class="langGd">Faclair </span></a>\n\n\t\t\t<a class="rtab indentb" href="/thesaurus/">\n\t\t\t<img src="/images/co-fhaclair-14x20.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="thesaurus" class="dicImg" /> \n\t\t\t<span class="langEn">Thesaurus </span>\n\t\t\t<span class="langGd">Co-fhaclair </span></a>\n\t\t\t\t\n\t \n\t\n\t\t\t\t <div class="rtab">\n\t\t<form action="/search/search.jsp" method="get">\n\t\t\t<div>\n\t\t\t\t<input id="forminput" type="text" name="query" value="search the site..."/>\n\t\t\t\t<input type="hidden" name="order" value="relevance_desc"/>\n\t\t\t\t<input type="hidden" name="lang" value="en" class="formHiddenLang"/>\n\t\t\t<button type="submit" title="search the LearnGaelic site for a word or phrase" id="searchbutton">\n\t\t\t\t<span class="langEn">go</span>\n\t\t\t\t<span class="langGd">lorg</span>\n\t\t\t</button></div>\n\t\t</form>\n\t</div>\n\t\n</div>\n\n\n\n<a id="en_gd" class="indentb" href="#"><span class="langEn">G\xe0idhlig</span><span class="langGd">English</span></a>\n\n<!-- this contains the "tabs" used for navigation, and the English -> Gaelic button -->\n\n<ul id="nav">\n\t<li class="tab"><a id="datatab" href="/info/" class="off"><span class="langEn">Info</span><span class="langGd">Fios</span></a></li>\n\t<li class="tab"><a id="toolstab" href="/tools/" class="on"><span class="langEn">Tools</span><span class="langGd">Goireasan</span></a></li>\n\t<li class="tab"><a id="begintab" href="/beginner/" class="off"><span class="langEn">Beginner</span><span class="langGd">T\xf2iseachadh</span></a></li>\n\t<li class="tab"><a id="intertab" href="/intermediate/" class="off"><span class="langEn">Intermediate</span><span class="langGd">Eadar-mheadhanach</span></a></li>\n\t<li class="tab"><a id="advtab" href="/advanced/" class="off"><span class="langEn">Advanced</span><span class="langGd">Adhartach</span></a></li>\n\t<li class="tab"><a id="sectab" href="/secondary/" class="off"><span class="langEn">Secondary</span><span class="langGd">\xc0rd-sgoil</span></a></li>\n\t<li class="tab"><a id="pritab" href="/primary/" class="off"><span class="langEn">Primary</span><span class="langGd">Bun-sgoil</span></a></li>\n\t<li class="tab"><a id="pretab" href="/underfives/" class="off"><span class="langEn">Under fives</span><span class="langGd">Fo ch\xf2ig</span></a></li>\n\t<li id="cookieslink"><a href="/cookies.jsp" title="Information about cookies used by LearnGaelic.net">Cookies</a></li>\n</ul>\n\n\n\t</div>\n\t\n    <noscript>\n      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">\n        The LearnGaelic dictionary needs Javascript to work. \n      </div>\n    </noscript>\n\n\t<div id="main">\n\n\t    <h1><span class="langEn">LearnGaelic Dictionary</span><span class="langGd">Faclair LearnGaelic</span></h1>\n\n\t\t<h2 id="afbcredit"><span class="langEn">In association with <a href="http://www.faclair.com">Am Faclair Beag</a></span><span class="langGd">Ann an co-cheangal ris <a href="http://www.faclair.com">An Fhaclair Bheag</a></span></h2>\n\t\t\n\t\t<div id="dicUI">\n\t\t\t<div id="wordFieldContainer"></div>\n\t\t\t<div id="buttonContainer"></div>\n\t\t\n\t\t\t<div id="langContainer"></div>\n  \n\t\t\t<div id="wildcardContainer"></div>\n\t\t\t\n\t\t\t\n\t\t</div>\n\t\t\n\t\t<p style="color:red;" id="errorLabelContainer"></p>\n\t      \n\t\t<p id="waitContainer" style="text-align: center"></p>\n\n\n\t\t<div id="resultsContainer"></div>\n\t\t\n\t\t<!-- div id="linkContainer"></div -->\n\t\t<div id="errorContainer"></div>\n\n\t\t<p class="dicinfo">\n\t\t\tWe are gradually adding audio for all the terms in the dictionary. This audio is being produced by BBC G\xe0idhlig (<a href="http://www.bbc.co.uk/alba">bbc.co.uk/alba</a>).\n\t\t\n\t\t\t<br/><br/>\n\t\t\n\t\t\tDictionary-related thoughts, comments or criticisms? Drop an email to <a href="mailto:dictionary@learngaelic.net">dictionary@learngaelic.net</a>.\n\t\t\t\n\t\t\t<br/><br/>\n\t\t\t<span id="no-mobile"><a href="#" id="no-mobile-link"><span class="langEn">Desktop version</span> <span class="langGd">Tionndadh l\xe0n-sgrion</span></a></span>\n\t\t</p>\n\t</div>\n\t<!-- ========= End of main section ========== -->\n\t\n\t<!-- ========= The footer ========== -->\n\t<div id="footer">\n\t\t\n\n\n\n\n\t<ul class="blockleft">\n\t\t<li><span class="langEn">A partnership of</span><span class="langGd">Co-bhanntachd eadar</span></li>\n\t\t<li><a href="http://www.gaidhlig.org.uk/"><span class="langEn">B\xf2rd na G\xe0idhlig</span><span class="langGd">B\xf2rd na G\xe0idhlig</span></a></li>\n\t\t<li><a href="http://www.mgalba.com/"><span class="langEn">MG ALBA</span><span class="langGd">MG ALBA</span></a></li>\n\t\t<li><a href="http://www.bbc.co.uk/alba/"><span class="langEn">BBC</span><span class="langGd">BBC</span></a></li>\n\t\t<li><a href="http://www.gla.ac.uk/subjects/celticgaelic/"><span class="langEn">Board of Celtic Studies Scotland</span><span class="langGd">B\xf2rd na Ceiltis (Alba)</span></a></li>\n\t\t<li><a href="http://www.smo.uhi.ac.uk/"><span class="langEn">Sabhal M\xf2r Ostaig</span><span class="langGd">Sabhal M\xf2r Ostaig</span></a></li>\n\t</ul>\n\n\n\t<ul class="blockright">      \n\t\t<li><span class="langEn">In co-operation with</span><span class="langGd">A\u2019 co-obrachadh le</span></li>\n\t\t<li><a href="http://www.canan.co.uk/"><span class="langEn">C\xe0nan</span><span class="langGd">C\xe0nan</span></a></li>\n\t\t<li><a href="http://www.cli.org.uk/"><span class="langEn">Cl\xec G\xe0idhlig</span><span class="langGd">Cl\xec G\xe0idhlig</span></a></li>\n\t\t<li><a href="http://www.cne-siar.gov.uk/"><span class="langEn">Comhairle nan Eilean Siar</span><span class="langGd">Comhairle nan Eilean Siar</span></a></li>\n\t\t<li><a href="http://www.educationscotland.gov.uk/"><span class="langEn">Education Scotland</span><span class="langGd">Foghlam Alba</span></a></li>\n\t\t<li><a href="http://www.faclair.com/"><span class="langEn">Am Faclair Beag</span><span class="langGd">Am Faclair Beag</span></a></li>\n\t\t<li><a href="http://www.gaelicplacenames.org/"><span class="langEn">Gaelic Place-Names of Scotland</span><span class="langGd">Ainmean-\xc0ite na h-Alba (A\xc0A)</span></a></li>\n\t\t<li><a href="http://www.mormedia.co.uk/"><span class="langEn">M\xf2r Media</span><span class="langGd">M\xf2r Media</span></a></li>\t\t \n\t\t<li><a href="http://www.open.ac.uk/"><span class="langEn">Open University</span><span class="langGd">Open University</span></a></li>\n\t\t<li><a href="http://www.sealgar.co.uk/">Sealgar</a></li>\n\t\t<li><a href="http://www.sqa.org.uk/">SQA</a></li>\n\t\t<li><a href="http://www.storlann.co.uk/">St\xf2rlann</a></li>\n\t\t<li><a href="http://www.ulpan.co.uk/">\xd9lpan</a></li>\n\t </ul>\n\t\n\t<a href="#" class="cc-privacy-link" style="display: block; float: right; height: 100%;">Privacy settings</a>\n\n\t<div style="clear: both;"></div>\n\n\t</div>\n\t\n  </body>\n</html>\n'
+html.find(id='resultsContainer')
+# OUT: Traceback (most recent call last):
+# OUT:   File "<input>", line 1, in <module>
+# OUT: TypeError: find() takes no keyword arguments
+import BeautifulSoup
+bs = BeautifulSoup.BeautifulSoup(html)
+bs
+# OUT: <!DOCTYPE html>
+# OUT: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+# OUT: <head>
+# OUT: <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+# OUT: <meta name="apple-mobile-web-app-capable" content="yes" />
+# OUT: <meta name="apple-mobile-web-app-title" content="LG Dictionary" />
+# OUT: <meta name="viewport" content="width=410" /> <!-- width=device-width gives "width of device" -->
+# OUT: <meta name="description" content="A fast and easy-to-use modern Gaelic dictionary. ,_, Faclair ùr, luath agus goireasach." />
+# OUT: <link rel="apple-touch-icon" href="/dictionary/apple-touch-icon.png" />
+# OUT: <link rel="stylesheet" type="text/css" href="/css/main.css" />
+# OUT: <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+# OUT: <!--[if lte IE 7]&gt; &lt;link rel="stylesheet" type="text/css" href="/css/ie.css"  /&gt; &lt;![endif]-->
+# OUT: <!--[if lte IE 6]&gt; &lt;link rel="stylesheet" type="text/css" href="/css/ie6.css"  /&gt; &lt;![endif]-->
+# OUT: <link type="text/css" rel="stylesheet" href="Faclair.css" />
+# OUT: <!--[if !IE]&gt; -->
+# OUT: <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" id="mobile-css" />
+# OUT: <!--&lt;![endif]-->
+# OUT: <title>The LearnGaelic Dictionary</title>
+# OUT: <!-- gwt JS -->
+# OUT: <script type="text/javascript" src="faclair/faclair.nocache.js"></script>
+# OUT: <script type="text/javascript">
+# OUT: 		var search_term = "funny";
+# OUT: var dictModeEnGd = true;
+# OUT: 	</script>
+# OUT: <!-- load, and call the javascript files that handle things like language changes -->
+# OUT: <link rel="shortcut icon" href="/favicon.ico" />
+# OUT: <script src="/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script src="/js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script src="/js/jquery.url.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script src="/js/my.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script type="text/javascript">$(document).ready(function() { doStuffWhenDomIsReady(); }); </script>
+# OUT: <!-- GA tracking and Google Fonts loading -->
+# OUT: <script type="text/plain" class="cc-onconsent-analytics">
+# OUT:   var _gaq = _gaq || [];
+# OUT:   _gaq.push(['_setAccount', 'UA-24635625-1']);
+# OUT:   _gaq.push(['_trackPageview']);
+# OUT:   (function() {
+# OUT:     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+# OUT:     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+# OUT:     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+# OUT:   })();
+# OUT: </script>
+# OUT: <script type="text/javascript">
+# OUT: WebFontConfig = {
+# OUT:     google: { families: [ 'Coustard::latin', 'Covered+By+Your+Grace::latin', 'Open+Sans:400,600,300:latin' ] }
+# OUT:   };
+# OUT:   (function() {
+# OUT:     var wf = document.createElement('script');
+# OUT:     wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+# OUT:       '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+# OUT:     wf.type = 'text/javascript';
+# OUT:     wf.async = 'true';
+# OUT:     var s = document.getElementsByTagName('script')[0];
+# OUT:     s.parentNode.insertBefore(wf, s);
+# OUT:   })();
+# OUT: </script>
+# OUT: <!--[if lte IE 6]&gt;
+# OUT: &lt;style type="text/css"&gt;
+# OUT: body {
+# OUT: 	behavior: url('/css/csshover3.htc');
+# OUT: }
+# OUT: img { behavior: url('/js/iepngfix.htc'); }
+# OUT: &lt;/style&gt;
+# OUT: &lt;![endif]-->
+# OUT: <!--[if lte IE 9]&gt; 
+# OUT: &lt;style type="text/css"&gt;
+# OUT: div.block {
+# OUT: 	behavior: url('/js/PIE.htc');
+# OUT: 	position: relative;
+# OUT: }
+# OUT: &lt;/style&gt;
+# OUT:  &lt;![endif]-->
+# OUT: <script type="text/javascript">
+# OUT: 		$(document).ready(function()
+# OUT: 		{
+# OUT: 			$('#no-mobile-link').click(function(event)
+# OUT: 				{
+# OUT: 					$('#mobile-css').prop('disabled', true);
+# OUT: 					$('#mobile-css').remove();
+# OUT: 					if (event != null) event.preventDefault();
+# OUT: 			});
+# OUT: 		});
+# OUT: 	</script>
+# OUT: <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+# OUT: <link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css" />
+# OUT: <script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+# OUT: <script type="text/javascript">
+# OUT: // &lt;![CDATA[
+# OUT: cc.initialise({
+# OUT: 	cookies: {
+# OUT: 		social: {},
+# OUT: 		analytics: {},
+# OUT: 		necessary: {}
+# OUT: 	},
+# OUT: 	settings: {
+# OUT: 		consenttype: "implicit",
+# OUT: 		style: "light",
+# OUT: 		onlyshowbanneronce: true,
+# OUT: 		hideprivacysettingstab: true
+# OUT: 	}
+# OUT: });
+# OUT: // ]]&gt;
+# OUT: </script>
+# OUT: <!-- End Cookie Consent plugin -->
+# OUT: </head>
+# OUT: <body>
+# OUT: <!--  ======= include the top section of the page, containing nav ======== -->
+# OUT: <div id="header">
+# OUT: <div id="logo"><a href="/index.jsp" class="noyellow"><img src="/images/logo_160x100.png" width="160" height="100" alt="the LearnGaelic logo" title="LearnGaelic home" /></a></div>
+# OUT: <div id="searchcontainer">
+# OUT: <a class="rtab indentb" href="mailto:mairi@learngaelic.net">
+# OUT: <span title="Email us about any aspect of learning Gaelic.">
+# OUT: <img src="/images/email-new.png" height="20" alt="Emailicon" />
+# OUT: </span>
+# OUT: </a>
+# OUT: <div class="rtab indentb">
+# OUT: <span title="Speak to somebody (for free) about how you can start learning Gaelic today! (Hours of operation: 0900-1700, Mon-Fri)">
+# OUT: <img src="/images/ICONS-MAIN-BLUE/Icon_Phone.png" height="20" alt="Phoneicon" /> 0800 1712994  </span>
+# OUT: </div>
+# OUT: <a class="rtab indentb" href="/dictionary/">
+# OUT: <img src="/images/ICONS-MAIN-BLUE/Icon_Book.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="dictionary" class="dicImg" />
+# OUT: <span class="langEn">Dictionary </span>
+# OUT: <span class="langGd">Faclair </span></a>
+# OUT: <a class="rtab indentb" href="/thesaurus/">
+# OUT: <img src="/images/co-fhaclair-14x20.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="thesaurus" class="dicImg" />
+# OUT: <span class="langEn">Thesaurus </span>
+# OUT: <span class="langGd">Co-fhaclair </span></a>
+# OUT: <div class="rtab">
+# OUT: <form action="/search/search.jsp" method="get">
+# OUT: <div>
+# OUT: <input id="forminput" type="text" name="query" value="search the site..." />
+# OUT: <input type="hidden" name="order" value="relevance_desc" />
+# OUT: <input type="hidden" name="lang" value="en" class="formHiddenLang" />
+# OUT: <button type="submit" title="search the LearnGaelic site for a word or phrase" id="searchbutton">
+# OUT: <span class="langEn">go</span>
+# OUT: <span class="langGd">lorg</span>
+# OUT: </button></div>
+# OUT: </form>
+# OUT: </div>
+# OUT: </div>
+# OUT: <a id="en_gd" class="indentb" href="#"><span class="langEn">Gàidhlig</span><span class="langGd">English</span></a>
+# OUT: <!-- this contains the "tabs" used for navigation, and the English -&gt; Gaelic button -->
+# OUT: <ul id="nav">
+# OUT: <li class="tab"><a id="datatab" href="/info/" class="off"><span class="langEn">Info</span><span class="langGd">Fios</span></a></li>
+# OUT: <li class="tab"><a id="toolstab" href="/tools/" class="on"><span class="langEn">Tools</span><span class="langGd">Goireasan</span></a></li>
+# OUT: <li class="tab"><a id="begintab" href="/beginner/" class="off"><span class="langEn">Beginner</span><span class="langGd">Tòiseachadh</span></a></li>
+# OUT: <li class="tab"><a id="intertab" href="/intermediate/" class="off"><span class="langEn">Intermediate</span><span class="langGd">Eadar-mheadhanach</span></a></li>
+# OUT: <li class="tab"><a id="advtab" href="/advanced/" class="off"><span class="langEn">Advanced</span><span class="langGd">Adhartach</span></a></li>
+# OUT: <li class="tab"><a id="sectab" href="/secondary/" class="off"><span class="langEn">Secondary</span><span class="langGd">Àrd-sgoil</span></a></li>
+# OUT: <li class="tab"><a id="pritab" href="/primary/" class="off"><span class="langEn">Primary</span><span class="langGd">Bun-sgoil</span></a></li>
+# OUT: <li class="tab"><a id="pretab" href="/underfives/" class="off"><span class="langEn">Under fives</span><span class="langGd">Fo chòig</span></a></li>
+# OUT: <li id="cookieslink"><a href="/cookies.jsp" title="Information about cookies used by LearnGaelic.net">Cookies</a></li>
+# OUT: </ul>
+# OUT: </div>
+# OUT: <noscript>
+# OUT: <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+# OUT:         The LearnGaelic dictionary needs Javascript to work. 
+# OUT:       </div>
+# OUT: </noscript>
+# OUT: <div id="main">
+# OUT: <h1><span class="langEn">LearnGaelic Dictionary</span><span class="langGd">Faclair LearnGaelic</span></h1>
+# OUT: <h2 id="afbcredit"><span class="langEn">In association with <a href="http://www.faclair.com">Am Faclair Beag</a></span><span class="langGd">Ann an co-cheangal ris <a href="http://www.faclair.com">An Fhaclair Bheag</a></span></h2>
+# OUT: <div id="dicUI">
+# OUT: <div id="wordFieldContainer"></div>
+# OUT: <div id="buttonContainer"></div>
+# OUT: <div id="langContainer"></div>
+# OUT: <div id="wildcardContainer"></div>
+# OUT: </div>
+# OUT: <p style="color:red;" id="errorLabelContainer"></p>
+# OUT: <p id="waitContainer" style="text-align: center"></p>
+# OUT: <div id="resultsContainer"></div>
+# OUT: <!-- div id="linkContainer"&gt;&lt;/div -->
+# OUT: <div id="errorContainer"></div>
+# OUT: <p class="dicinfo">
+# OUT: 			We are gradually adding audio for all the terms in the dictionary. This audio is being produced by BBC Gàidhlig (<a href="http://www.bbc.co.uk/alba">bbc.co.uk/alba</a>).
+# OUT: 			<br /><br />
+# OUT: 			Dictionary-related thoughts, comments or criticisms? Drop an email to <a href="mailto:dictionary@learngaelic.net">dictionary@learngaelic.net</a>.
+# OUT: 			<br /><br />
+# OUT: <span id="no-mobile"><a href="#" id="no-mobile-link"><span class="langEn">Desktop version</span> <span class="langGd">Tionndadh làn-sgrion</span></a></span>
+# OUT: </p>
+# OUT: </div>
+# OUT: <!-- ========= End of main section ========== -->
+# OUT: <!-- ========= The footer ========== -->
+# OUT: <div id="footer">
+# OUT: <ul class="blockleft">
+# OUT: <li><span class="langEn">A partnership of</span><span class="langGd">Co-bhanntachd eadar</span></li>
+# OUT: <li><a href="http://www.gaidhlig.org.uk/"><span class="langEn">Bòrd na Gàidhlig</span><span class="langGd">Bòrd na Gàidhlig</span></a></li>
+# OUT: <li><a href="http://www.mgalba.com/"><span class="langEn">MG ALBA</span><span class="langGd">MG ALBA</span></a></li>
+# OUT: <li><a href="http://www.bbc.co.uk/alba/"><span class="langEn">BBC</span><span class="langGd">BBC</span></a></li>
+# OUT: <li><a href="http://www.gla.ac.uk/subjects/celticgaelic/"><span class="langEn">Board of Celtic Studies Scotland</span><span class="langGd">Bòrd na Ceiltis (Alba)</span></a></li>
+# OUT: <li><a href="http://www.smo.uhi.ac.uk/"><span class="langEn">Sabhal Mòr Ostaig</span><span class="langGd">Sabhal Mòr Ostaig</span></a></li>
+# OUT: </ul>
+# OUT: <ul class="blockright">
+# OUT: <li><span class="langEn">In co-operation with</span><span class="langGd">A’ co-obrachadh le</span></li>
+# OUT: <li><a href="http://www.canan.co.uk/"><span class="langEn">Cànan</span><span class="langGd">Cànan</span></a></li>
+# OUT: <li><a href="http://www.cli.org.uk/"><span class="langEn">Clì Gàidhlig</span><span class="langGd">Clì Gàidhlig</span></a></li>
+# OUT: <li><a href="http://www.cne-siar.gov.uk/"><span class="langEn">Comhairle nan Eilean Siar</span><span class="langGd">Comhairle nan Eilean Siar</span></a></li>
+# OUT: <li><a href="http://www.educationscotland.gov.uk/"><span class="langEn">Education Scotland</span><span class="langGd">Foghlam Alba</span></a></li>
+# OUT: <li><a href="http://www.faclair.com/"><span class="langEn">Am Faclair Beag</span><span class="langGd">Am Faclair Beag</span></a></li>
+# OUT: <li><a href="http://www.gaelicplacenames.org/"><span class="langEn">Gaelic Place-Names of Scotland</span><span class="langGd">Ainmean-Àite na h-Alba (AÀA)</span></a></li>
+# OUT: <li><a href="http://www.mormedia.co.uk/"><span class="langEn">Mòr Media</span><span class="langGd">Mòr Media</span></a></li>
+# OUT: <li><a href="http://www.open.ac.uk/"><span class="langEn">Open University</span><span class="langGd">Open University</span></a></li>
+# OUT: <li><a href="http://www.sealgar.co.uk/">Sealgar</a></li>
+# OUT: <li><a href="http://www.sqa.org.uk/">SQA</a></li>
+# OUT: <li><a href="http://www.storlann.co.uk/">Stòrlann</a></li>
+# OUT: <li><a href="http://www.ulpan.co.uk/">Ùlpan</a></li>
+# OUT: </ul>
+# OUT: <a href="#" class="cc-privacy-link" style="display: block; float: right; height: 100%;">Privacy settings</a>
+# OUT: <div style="clear: both;"></div>
+# OUT: </div>
+# OUT: </body>
+# OUT: </html>
+bs.find(id='resContainer')
+a = bs.find(id='resContainer')
+a
+a = bs.find(id='resultsContainer')
+a
+# OUT: <div id="resultsContainer"></div>
+a.children
+a.nextSibling
+# OUT: u'\n'
+a.nextSibling
+# OUT: u'\n'
+a.nextElements
+a.findNextSiblings("tr")
+# OUT: []
+a = bs.find(id='resTable')
+a
+a = bs.find(class='resTable')
+# OUT:   File "<input>", line 1
+# OUT:     a = bs.find(class='resTable')
+# OUT:                     ^
+# OUT: SyntaxError: invalid syntax
+a = bs.find(class_='resTable')
+a
+a = bs.find(class='resTable')
+# OUT:   File "<input>", line 1
+# OUT:     a = bs.find(class='resTable')
+# OUT:                     ^
+# OUT: SyntaxError: invalid syntax
+tables = bs.findChildren('table')
+tables
+# OUT: []
+tables = bs.find('table')
+tables
+bs
+# OUT: <!DOCTYPE html>
+# OUT: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+# OUT: <head>
+# OUT: <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+# OUT: <meta name="apple-mobile-web-app-capable" content="yes" />
+# OUT: <meta name="apple-mobile-web-app-title" content="LG Dictionary" />
+# OUT: <meta name="viewport" content="width=410" /> <!-- width=device-width gives "width of device" -->
+# OUT: <meta name="description" content="A fast and easy-to-use modern Gaelic dictionary. ,_, Faclair ùr, luath agus goireasach." />
+# OUT: <link rel="apple-touch-icon" href="/dictionary/apple-touch-icon.png" />
+# OUT: <link rel="stylesheet" type="text/css" href="/css/main.css" />
+# OUT: <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+# OUT: <!--[if lte IE 7]&gt; &lt;link rel="stylesheet" type="text/css" href="/css/ie.css"  /&gt; &lt;![endif]-->
+# OUT: <!--[if lte IE 6]&gt; &lt;link rel="stylesheet" type="text/css" href="/css/ie6.css"  /&gt; &lt;![endif]-->
+# OUT: <link type="text/css" rel="stylesheet" href="Faclair.css" />
+# OUT: <!--[if !IE]&gt; -->
+# OUT: <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" id="mobile-css" />
+# OUT: <!--&lt;![endif]-->
+# OUT: <title>The LearnGaelic Dictionary</title>
+# OUT: <!-- gwt JS -->
+# OUT: <script type="text/javascript" src="faclair/faclair.nocache.js"></script>
+# OUT: <script type="text/javascript">
+# OUT: 		var search_term = "funny";
+# OUT: var dictModeEnGd = true;
+# OUT: 	</script>
+# OUT: <!-- load, and call the javascript files that handle things like language changes -->
+# OUT: <link rel="shortcut icon" href="/favicon.ico" />
+# OUT: <script src="/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script src="/js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script src="/js/jquery.url.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script src="/js/my.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script type="text/javascript">$(document).ready(function() { doStuffWhenDomIsReady(); }); </script>
+# OUT: <!-- GA tracking and Google Fonts loading -->
+# OUT: <script type="text/plain" class="cc-onconsent-analytics">
+# OUT:   var _gaq = _gaq || [];
+# OUT:   _gaq.push(['_setAccount', 'UA-24635625-1']);
+# OUT:   _gaq.push(['_trackPageview']);
+# OUT:   (function() {
+# OUT:     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+# OUT:     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+# OUT:     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+# OUT:   })();
+# OUT: </script>
+# OUT: <script type="text/javascript">
+# OUT: WebFontConfig = {
+# OUT:     google: { families: [ 'Coustard::latin', 'Covered+By+Your+Grace::latin', 'Open+Sans:400,600,300:latin' ] }
+# OUT:   };
+# OUT:   (function() {
+# OUT:     var wf = document.createElement('script');
+# OUT:     wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+# OUT:       '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+# OUT:     wf.type = 'text/javascript';
+# OUT:     wf.async = 'true';
+# OUT:     var s = document.getElementsByTagName('script')[0];
+# OUT:     s.parentNode.insertBefore(wf, s);
+# OUT:   })();
+# OUT: </script>
+# OUT: <!--[if lte IE 6]&gt;
+# OUT: &lt;style type="text/css"&gt;
+# OUT: body {
+# OUT: 	behavior: url('/css/csshover3.htc');
+# OUT: }
+# OUT: img { behavior: url('/js/iepngfix.htc'); }
+# OUT: &lt;/style&gt;
+# OUT: &lt;![endif]-->
+# OUT: <!--[if lte IE 9]&gt; 
+# OUT: &lt;style type="text/css"&gt;
+# OUT: div.block {
+# OUT: 	behavior: url('/js/PIE.htc');
+# OUT: 	position: relative;
+# OUT: }
+# OUT: &lt;/style&gt;
+# OUT:  &lt;![endif]-->
+# OUT: <script type="text/javascript">
+# OUT: 		$(document).ready(function()
+# OUT: 		{
+# OUT: 			$('#no-mobile-link').click(function(event)
+# OUT: 				{
+# OUT: 					$('#mobile-css').prop('disabled', true);
+# OUT: 					$('#mobile-css').remove();
+# OUT: 					if (event != null) event.preventDefault();
+# OUT: 			});
+# OUT: 		});
+# OUT: 	</script>
+# OUT: <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+# OUT: <link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css" />
+# OUT: <script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+# OUT: <script type="text/javascript">
+# OUT: // &lt;![CDATA[
+# OUT: cc.initialise({
+# OUT: 	cookies: {
+# OUT: 		social: {},
+# OUT: 		analytics: {},
+# OUT: 		necessary: {}
+# OUT: 	},
+# OUT: 	settings: {
+# OUT: 		consenttype: "implicit",
+# OUT: 		style: "light",
+# OUT: 		onlyshowbanneronce: true,
+# OUT: 		hideprivacysettingstab: true
+# OUT: 	}
+# OUT: });
+# OUT: // ]]&gt;
+# OUT: </script>
+# OUT: <!-- End Cookie Consent plugin -->
+# OUT: </head>
+# OUT: <body>
+# OUT: <!--  ======= include the top section of the page, containing nav ======== -->
+# OUT: <div id="header">
+# OUT: <div id="logo"><a href="/index.jsp" class="noyellow"><img src="/images/logo_160x100.png" width="160" height="100" alt="the LearnGaelic logo" title="LearnGaelic home" /></a></div>
+# OUT: <div id="searchcontainer">
+# OUT: <a class="rtab indentb" href="mailto:mairi@learngaelic.net">
+# OUT: <span title="Email us about any aspect of learning Gaelic.">
+# OUT: <img src="/images/email-new.png" height="20" alt="Emailicon" />
+# OUT: </span>
+# OUT: </a>
+# OUT: <div class="rtab indentb">
+# OUT: <span title="Speak to somebody (for free) about how you can start learning Gaelic today! (Hours of operation: 0900-1700, Mon-Fri)">
+# OUT: <img src="/images/ICONS-MAIN-BLUE/Icon_Phone.png" height="20" alt="Phoneicon" /> 0800 1712994  </span>
+# OUT: </div>
+# OUT: <a class="rtab indentb" href="/dictionary/">
+# OUT: <img src="/images/ICONS-MAIN-BLUE/Icon_Book.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="dictionary" class="dicImg" />
+# OUT: <span class="langEn">Dictionary </span>
+# OUT: <span class="langGd">Faclair </span></a>
+# OUT: <a class="rtab indentb" href="/thesaurus/">
+# OUT: <img src="/images/co-fhaclair-14x20.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="thesaurus" class="dicImg" />
+# OUT: <span class="langEn">Thesaurus </span>
+# OUT: <span class="langGd">Co-fhaclair </span></a>
+# OUT: <div class="rtab">
+# OUT: <form action="/search/search.jsp" method="get">
+# OUT: <div>
+# OUT: <input id="forminput" type="text" name="query" value="search the site..." />
+# OUT: <input type="hidden" name="order" value="relevance_desc" />
+# OUT: <input type="hidden" name="lang" value="en" class="formHiddenLang" />
+# OUT: <button type="submit" title="search the LearnGaelic site for a word or phrase" id="searchbutton">
+# OUT: <span class="langEn">go</span>
+# OUT: <span class="langGd">lorg</span>
+# OUT: </button></div>
+# OUT: </form>
+# OUT: </div>
+# OUT: </div>
+# OUT: <a id="en_gd" class="indentb" href="#"><span class="langEn">Gàidhlig</span><span class="langGd">English</span></a>
+# OUT: <!-- this contains the "tabs" used for navigation, and the English -&gt; Gaelic button -->
+# OUT: <ul id="nav">
+# OUT: <li class="tab"><a id="datatab" href="/info/" class="off"><span class="langEn">Info</span><span class="langGd">Fios</span></a></li>
+# OUT: <li class="tab"><a id="toolstab" href="/tools/" class="on"><span class="langEn">Tools</span><span class="langGd">Goireasan</span></a></li>
+# OUT: <li class="tab"><a id="begintab" href="/beginner/" class="off"><span class="langEn">Beginner</span><span class="langGd">Tòiseachadh</span></a></li>
+# OUT: <li class="tab"><a id="intertab" href="/intermediate/" class="off"><span class="langEn">Intermediate</span><span class="langGd">Eadar-mheadhanach</span></a></li>
+# OUT: <li class="tab"><a id="advtab" href="/advanced/" class="off"><span class="langEn">Advanced</span><span class="langGd">Adhartach</span></a></li>
+# OUT: <li class="tab"><a id="sectab" href="/secondary/" class="off"><span class="langEn">Secondary</span><span class="langGd">Àrd-sgoil</span></a></li>
+# OUT: <li class="tab"><a id="pritab" href="/primary/" class="off"><span class="langEn">Primary</span><span class="langGd">Bun-sgoil</span></a></li>
+# OUT: <li class="tab"><a id="pretab" href="/underfives/" class="off"><span class="langEn">Under fives</span><span class="langGd">Fo chòig</span></a></li>
+# OUT: <li id="cookieslink"><a href="/cookies.jsp" title="Information about cookies used by LearnGaelic.net">Cookies</a></li>
+# OUT: </ul>
+# OUT: </div>
+# OUT: <noscript>
+# OUT: <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+# OUT:         The LearnGaelic dictionary needs Javascript to work. 
+# OUT:       </div>
+# OUT: </noscript>
+# OUT: <div id="main">
+# OUT: <h1><span class="langEn">LearnGaelic Dictionary</span><span class="langGd">Faclair LearnGaelic</span></h1>
+# OUT: <h2 id="afbcredit"><span class="langEn">In association with <a href="http://www.faclair.com">Am Faclair Beag</a></span><span class="langGd">Ann an co-cheangal ris <a href="http://www.faclair.com">An Fhaclair Bheag</a></span></h2>
+# OUT: <div id="dicUI">
+# OUT: <div id="wordFieldContainer"></div>
+# OUT: <div id="buttonContainer"></div>
+# OUT: <div id="langContainer"></div>
+# OUT: <div id="wildcardContainer"></div>
+# OUT: </div>
+# OUT: <p style="color:red;" id="errorLabelContainer"></p>
+# OUT: <p id="waitContainer" style="text-align: center"></p>
+# OUT: <div id="resultsContainer"></div>
+# OUT: <!-- div id="linkContainer"&gt;&lt;/div -->
+# OUT: <div id="errorContainer"></div>
+# OUT: <p class="dicinfo">
+# OUT: 			We are gradually adding audio for all the terms in the dictionary. This audio is being produced by BBC Gàidhlig (<a href="http://www.bbc.co.uk/alba">bbc.co.uk/alba</a>).
+# OUT: 			<br /><br />
+# OUT: 			Dictionary-related thoughts, comments or criticisms? Drop an email to <a href="mailto:dictionary@learngaelic.net">dictionary@learngaelic.net</a>.
+# OUT: 			<br /><br />
+# OUT: <span id="no-mobile"><a href="#" id="no-mobile-link"><span class="langEn">Desktop version</span> <span class="langGd">Tionndadh làn-sgrion</span></a></span>
+# OUT: </p>
+# OUT: </div>
+# OUT: <!-- ========= End of main section ========== -->
+# OUT: <!-- ========= The footer ========== -->
+# OUT: <div id="footer">
+# OUT: <ul class="blockleft">
+# OUT: <li><span class="langEn">A partnership of</span><span class="langGd">Co-bhanntachd eadar</span></li>
+# OUT: <li><a href="http://www.gaidhlig.org.uk/"><span class="langEn">Bòrd na Gàidhlig</span><span class="langGd">Bòrd na Gàidhlig</span></a></li>
+# OUT: <li><a href="http://www.mgalba.com/"><span class="langEn">MG ALBA</span><span class="langGd">MG ALBA</span></a></li>
+# OUT: <li><a href="http://www.bbc.co.uk/alba/"><span class="langEn">BBC</span><span class="langGd">BBC</span></a></li>
+# OUT: <li><a href="http://www.gla.ac.uk/subjects/celticgaelic/"><span class="langEn">Board of Celtic Studies Scotland</span><span class="langGd">Bòrd na Ceiltis (Alba)</span></a></li>
+# OUT: <li><a href="http://www.smo.uhi.ac.uk/"><span class="langEn">Sabhal Mòr Ostaig</span><span class="langGd">Sabhal Mòr Ostaig</span></a></li>
+# OUT: </ul>
+# OUT: <ul class="blockright">
+# OUT: <li><span class="langEn">In co-operation with</span><span class="langGd">A’ co-obrachadh le</span></li>
+# OUT: <li><a href="http://www.canan.co.uk/"><span class="langEn">Cànan</span><span class="langGd">Cànan</span></a></li>
+# OUT: <li><a href="http://www.cli.org.uk/"><span class="langEn">Clì Gàidhlig</span><span class="langGd">Clì Gàidhlig</span></a></li>
+# OUT: <li><a href="http://www.cne-siar.gov.uk/"><span class="langEn">Comhairle nan Eilean Siar</span><span class="langGd">Comhairle nan Eilean Siar</span></a></li>
+# OUT: <li><a href="http://www.educationscotland.gov.uk/"><span class="langEn">Education Scotland</span><span class="langGd">Foghlam Alba</span></a></li>
+# OUT: <li><a href="http://www.faclair.com/"><span class="langEn">Am Faclair Beag</span><span class="langGd">Am Faclair Beag</span></a></li>
+# OUT: <li><a href="http://www.gaelicplacenames.org/"><span class="langEn">Gaelic Place-Names of Scotland</span><span class="langGd">Ainmean-Àite na h-Alba (AÀA)</span></a></li>
+# OUT: <li><a href="http://www.mormedia.co.uk/"><span class="langEn">Mòr Media</span><span class="langGd">Mòr Media</span></a></li>
+# OUT: <li><a href="http://www.open.ac.uk/"><span class="langEn">Open University</span><span class="langGd">Open University</span></a></li>
+# OUT: <li><a href="http://www.sealgar.co.uk/">Sealgar</a></li>
+# OUT: <li><a href="http://www.sqa.org.uk/">SQA</a></li>
+# OUT: <li><a href="http://www.storlann.co.uk/">Stòrlann</a></li>
+# OUT: <li><a href="http://www.ulpan.co.uk/">Ùlpan</a></li>
+# OUT: </ul>
+# OUT: <a href="#" class="cc-privacy-link" style="display: block; float: right; height: 100%;">Privacy settings</a>
+# OUT: <div style="clear: both;"></div>
+# OUT: </div>
+# OUT: </body>
+# OUT: </html>
+bs[0:200]
+# OUT: Traceback (most recent call last):
+# OUT:   File "<input>", line 1, in <module>
+# OUT:   File "/usr/local/lib/python2.7/site-packages/BeautifulSoup.py", line 613, in __getitem__
+# OUT:     return self._getAttrMap()[key]
+# OUT: TypeError: unhashable type
+type(bs)
+# OUT: <class 'BeautifulSoup.BeautifulSoup'>
+bs.findAll('table')
+# OUT: []
+bs.findAll('tr')
+# OUT: []
+soup
+# OUT: Traceback (most recent call last):
+# OUT:   File "<input>", line 1, in <module>
+# OUT: NameError: name 'soup' is not defined
+bs
+# OUT: <!DOCTYPE html>
+# OUT: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+# OUT: <head>
+# OUT: <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+# OUT: <meta name="apple-mobile-web-app-capable" content="yes" />
+# OUT: <meta name="apple-mobile-web-app-title" content="LG Dictionary" />
+# OUT: <meta name="viewport" content="width=410" /> <!-- width=device-width gives "width of device" -->
+# OUT: <meta name="description" content="A fast and easy-to-use modern Gaelic dictionary. ,_, Faclair ùr, luath agus goireasach." />
+# OUT: <link rel="apple-touch-icon" href="/dictionary/apple-touch-icon.png" />
+# OUT: <link rel="stylesheet" type="text/css" href="/css/main.css" />
+# OUT: <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+# OUT: <!--[if lte IE 7]&gt; &lt;link rel="stylesheet" type="text/css" href="/css/ie.css"  /&gt; &lt;![endif]-->
+# OUT: <!--[if lte IE 6]&gt; &lt;link rel="stylesheet" type="text/css" href="/css/ie6.css"  /&gt; &lt;![endif]-->
+# OUT: <link type="text/css" rel="stylesheet" href="Faclair.css" />
+# OUT: <!--[if !IE]&gt; -->
+# OUT: <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" id="mobile-css" />
+# OUT: <!--&lt;![endif]-->
+# OUT: <title>The LearnGaelic Dictionary</title>
+# OUT: <!-- gwt JS -->
+# OUT: <script type="text/javascript" src="faclair/faclair.nocache.js"></script>
+# OUT: <script type="text/javascript">
+# OUT: 		var search_term = "funny";
+# OUT: var dictModeEnGd = true;
+# OUT: 	</script>
+# OUT: <!-- load, and call the javascript files that handle things like language changes -->
+# OUT: <link rel="shortcut icon" href="/favicon.ico" />
+# OUT: <script src="/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script src="/js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script src="/js/jquery.url.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script src="/js/my.js" type="text/javascript" charset="utf-8"></script>
+# OUT: <script type="text/javascript">$(document).ready(function() { doStuffWhenDomIsReady(); }); </script>
+# OUT: <!-- GA tracking and Google Fonts loading -->
+# OUT: <script type="text/plain" class="cc-onconsent-analytics">
+# OUT:   var _gaq = _gaq || [];
+# OUT:   _gaq.push(['_setAccount', 'UA-24635625-1']);
+# OUT:   _gaq.push(['_trackPageview']);
+# OUT:   (function() {
+# OUT:     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+# OUT:     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+# OUT:     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+# OUT:   })();
+# OUT: </script>
+# OUT: <script type="text/javascript">
+# OUT: WebFontConfig = {
+# OUT:     google: { families: [ 'Coustard::latin', 'Covered+By+Your+Grace::latin', 'Open+Sans:400,600,300:latin' ] }
+# OUT:   };
+# OUT:   (function() {
+# OUT:     var wf = document.createElement('script');
+# OUT:     wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+# OUT:       '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+# OUT:     wf.type = 'text/javascript';
+# OUT:     wf.async = 'true';
+# OUT:     var s = document.getElementsByTagName('script')[0];
+# OUT:     s.parentNode.insertBefore(wf, s);
+# OUT:   })();
+# OUT: </script>
+# OUT: <!--[if lte IE 6]&gt;
+# OUT: &lt;style type="text/css"&gt;
+# OUT: body {
+# OUT: 	behavior: url('/css/csshover3.htc');
+# OUT: }
+# OUT: img { behavior: url('/js/iepngfix.htc'); }
+# OUT: &lt;/style&gt;
+# OUT: &lt;![endif]-->
+# OUT: <!--[if lte IE 9]&gt; 
+# OUT: &lt;style type="text/css"&gt;
+# OUT: div.block {
+# OUT: 	behavior: url('/js/PIE.htc');
+# OUT: 	position: relative;
+# OUT: }
+# OUT: &lt;/style&gt;
+# OUT:  &lt;![endif]-->
+# OUT: <script type="text/javascript">
+# OUT: 		$(document).ready(function()
+# OUT: 		{
+# OUT: 			$('#no-mobile-link').click(function(event)
+# OUT: 				{
+# OUT: 					$('#mobile-css').prop('disabled', true);
+# OUT: 					$('#mobile-css').remove();
+# OUT: 					if (event != null) event.preventDefault();
+# OUT: 			});
+# OUT: 		});
+# OUT: 	</script>
+# OUT: <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+# OUT: <link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css" />
+# OUT: <script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+# OUT: <script type="text/javascript">
+# OUT: // &lt;![CDATA[
+# OUT: cc.initialise({
+# OUT: 	cookies: {
+# OUT: 		social: {},
+# OUT: 		analytics: {},
+# OUT: 		necessary: {}
+# OUT: 	},
+# OUT: 	settings: {
+# OUT: 		consenttype: "implicit",
+# OUT: 		style: "light",
+# OUT: 		onlyshowbanneronce: true,
+# OUT: 		hideprivacysettingstab: true
+# OUT: 	}
+# OUT: });
+# OUT: // ]]&gt;
+# OUT: </script>
+# OUT: <!-- End Cookie Consent plugin -->
+# OUT: </head>
+# OUT: <body>
+# OUT: <!--  ======= include the top section of the page, containing nav ======== -->
+# OUT: <div id="header">
+# OUT: <div id="logo"><a href="/index.jsp" class="noyellow"><img src="/images/logo_160x100.png" width="160" height="100" alt="the LearnGaelic logo" title="LearnGaelic home" /></a></div>
+# OUT: <div id="searchcontainer">
+# OUT: <a class="rtab indentb" href="mailto:mairi@learngaelic.net">
+# OUT: <span title="Email us about any aspect of learning Gaelic.">
+# OUT: <img src="/images/email-new.png" height="20" alt="Emailicon" />
+# OUT: </span>
+# OUT: </a>
+# OUT: <div class="rtab indentb">
+# OUT: <span title="Speak to somebody (for free) about how you can start learning Gaelic today! (Hours of operation: 0900-1700, Mon-Fri)">
+# OUT: <img src="/images/ICONS-MAIN-BLUE/Icon_Phone.png" height="20" alt="Phoneicon" /> 0800 1712994  </span>
+# OUT: </div>
+# OUT: <a class="rtab indentb" href="/dictionary/">
+# OUT: <img src="/images/ICONS-MAIN-BLUE/Icon_Book.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="dictionary" class="dicImg" />
+# OUT: <span class="langEn">Dictionary </span>
+# OUT: <span class="langGd">Faclair </span></a>
+# OUT: <a class="rtab indentb" href="/thesaurus/">
+# OUT: <img src="/images/co-fhaclair-14x20.png" width="14" height="20" alt="go to the Learn Gaelic dictionary" title="thesaurus" class="dicImg" />
+# OUT: <span class="langEn">Thesaurus </span>
+# OUT: <span class="langGd">Co-fhaclair </span></a>
+# OUT: <div class="rtab">
+# OUT: <form action="/search/search.jsp" method="get">
+# OUT: <div>
+# OUT: <input id="forminput" type="text" name="query" value="search the site..." />
+# OUT: <input type="hidden" name="order" value="relevance_desc" />
+# OUT: <input type="hidden" name="lang" value="en" class="formHiddenLang" />
+# OUT: <button type="submit" title="search the LearnGaelic site for a word or phrase" id="searchbutton">
+# OUT: <span class="langEn">go</span>
+# OUT: <span class="langGd">lorg</span>
+# OUT: </button></div>
+# OUT: </form>
+# OUT: </div>
+# OUT: </div>
+# OUT: <a id="en_gd" class="indentb" href="#"><span class="langEn">Gàidhlig</span><span class="langGd">English</span></a>
+# OUT: <!-- this contains the "tabs" used for navigation, and the English -&gt; Gaelic button -->
+# OUT: <ul id="nav">
+# OUT: <li class="tab"><a id="datatab" href="/info/" class="off"><span class="langEn">Info</span><span class="langGd">Fios</span></a></li>
+# OUT: <li class="tab"><a id="toolstab" href="/tools/" class="on"><span class="langEn">Tools</span><span class="langGd">Goireasan</span></a></li>
+# OUT: <li class="tab"><a id="begintab" href="/beginner/" class="off"><span class="langEn">Beginner</span><span class="langGd">Tòiseachadh</span></a></li>
+# OUT: <li class="tab"><a id="intertab" href="/intermediate/" class="off"><span class="langEn">Intermediate</span><span class="langGd">Eadar-mheadhanach</span></a></li>
+# OUT: <li class="tab"><a id="advtab" href="/advanced/" class="off"><span class="langEn">Advanced</span><span class="langGd">Adhartach</span></a></li>
+# OUT: <li class="tab"><a id="sectab" href="/secondary/" class="off"><span class="langEn">Secondary</span><span class="langGd">Àrd-sgoil</span></a></li>
+# OUT: <li class="tab"><a id="pritab" href="/primary/" class="off"><span class="langEn">Primary</span><span class="langGd">Bun-sgoil</span></a></li>
+# OUT: <li class="tab"><a id="pretab" href="/underfives/" class="off"><span class="langEn">Under fives</span><span class="langGd">Fo chòig</span></a></li>
+# OUT: <li id="cookieslink"><a href="/cookies.jsp" title="Information about cookies used by LearnGaelic.net">Cookies</a></li>
+# OUT: </ul>
+# OUT: </div>
+# OUT: <noscript>
+# OUT: <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+# OUT:         The LearnGaelic dictionary needs Javascript to work. 
+# OUT:       </div>
+# OUT: </noscript>
+# OUT: <div id="main">
+# OUT: <h1><span class="langEn">LearnGaelic Dictionary</span><span class="langGd">Faclair LearnGaelic</span></h1>
+# OUT: <h2 id="afbcredit"><span class="langEn">In association with <a href="http://www.faclair.com">Am Faclair Beag</a></span><span class="langGd">Ann an co-cheangal ris <a href="http://www.faclair.com">An Fhaclair Bheag</a></span></h2>
+# OUT: <div id="dicUI">
+# OUT: <div id="wordFieldContainer"></div>
+# OUT: <div id="buttonContainer"></div>
+# OUT: <div id="langContainer"></div>
+# OUT: <div id="wildcardContainer"></div>
+# OUT: </div>
+# OUT: <p style="color:red;" id="errorLabelContainer"></p>
+# OUT: <p id="waitContainer" style="text-align: center"></p>
+# OUT: <div id="resultsContainer"></div>
+# OUT: <!-- div id="linkContainer"&gt;&lt;/div -->
+# OUT: <div id="errorContainer"></div>
+# OUT: <p class="dicinfo">
+# OUT: 			We are gradually adding audio for all the terms in the dictionary. This audio is being produced by BBC Gàidhlig (<a href="http://www.bbc.co.uk/alba">bbc.co.uk/alba</a>).
+# OUT: 			<br /><br />
+# OUT: 			Dictionary-related thoughts, comments or criticisms? Drop an email to <a href="mailto:dictionary@learngaelic.net">dictionary@learngaelic.net</a>.
+# OUT: 			<br /><br />
+# OUT: <span id="no-mobile"><a href="#" id="no-mobile-link"><span class="langEn">Desktop version</span> <span class="langGd">Tionndadh làn-sgrion</span></a></span>
+# OUT: </p>
+# OUT: </div>
+# OUT: <!-- ========= End of main section ========== -->
+# OUT: <!-- ========= The footer ========== -->
+# OUT: <div id="footer">
+# OUT: <ul class="blockleft">
+# OUT: <li><span class="langEn">A partnership of</span><span class="langGd">Co-bhanntachd eadar</span></li>
+# OUT: <li><a href="http://www.gaidhlig.org.uk/"><span class="langEn">Bòrd na Gàidhlig</span><span class="langGd">Bòrd na Gàidhlig</span></a></li>
+# OUT: <li><a href="http://www.mgalba.com/"><span class="langEn">MG ALBA</span><span class="langGd">MG ALBA</span></a></li>
+# OUT: <li><a href="http://www.bbc.co.uk/alba/"><span class="langEn">BBC</span><span class="langGd">BBC</span></a></li>
+# OUT: <li><a href="http://www.gla.ac.uk/subjects/celticgaelic/"><span class="langEn">Board of Celtic Studies Scotland</span><span class="langGd">Bòrd na Ceiltis (Alba)</span></a></li>
+# OUT: <li><a href="http://www.smo.uhi.ac.uk/"><span class="langEn">Sabhal Mòr Ostaig</span><span class="langGd">Sabhal Mòr Ostaig</span></a></li>
+# OUT: </ul>
+# OUT: <ul class="blockright">
+# OUT: <li><span class="langEn">In co-operation with</span><span class="langGd">A’ co-obrachadh le</span></li>
+# OUT: <li><a href="http://www.canan.co.uk/"><span class="langEn">Cànan</span><span class="langGd">Cànan</span></a></li>
+# OUT: <li><a href="http://www.cli.org.uk/"><span class="langEn">Clì Gàidhlig</span><span class="langGd">Clì Gàidhlig</span></a></li>
+# OUT: <li><a href="http://www.cne-siar.gov.uk/"><span class="langEn">Comhairle nan Eilean Siar</span><span class="langGd">Comhairle nan Eilean Siar</span></a></li>
+# OUT: <li><a href="http://www.educationscotland.gov.uk/"><span class="langEn">Education Scotland</span><span class="langGd">Foghlam Alba</span></a></li>
+# OUT: <li><a href="http://www.faclair.com/"><span class="langEn">Am Faclair Beag</span><span class="langGd">Am Faclair Beag</span></a></li>
+# OUT: <li><a href="http://www.gaelicplacenames.org/"><span class="langEn">Gaelic Place-Names of Scotland</span><span class="langGd">Ainmean-Àite na h-Alba (AÀA)</span></a></li>
+# OUT: <li><a href="http://www.mormedia.co.uk/"><span class="langEn">Mòr Media</span><span class="langGd">Mòr Media</span></a></li>
+# OUT: <li><a href="http://www.open.ac.uk/"><span class="langEn">Open University</span><span class="langGd">Open University</span></a></li>
+# OUT: <li><a href="http://www.sealgar.co.uk/">Sealgar</a></li>
+# OUT: <li><a href="http://www.sqa.org.uk/">SQA</a></li>
+# OUT: <li><a href="http://www.storlann.co.uk/">Stòrlann</a></li>
+# OUT: <li><a href="http://www.ulpan.co.uk/">Ùlpan</a></li>
+# OUT: </ul>
+# OUT: <a href="#" class="cc-privacy-link" style="display: block; float: right; height: 100%;">Privacy settings</a>
+# OUT: <div style="clear: both;"></div>
+# OUT: </div>
+# OUT: </body>
+# OUT: </html>
+bs.findAll(class="resTable)
+# OUT:   File "<input>", line 1
+# OUT:     bs.findAll(class="resTable)
+# OUT:                    ^
+# OUT: SyntaxError: invalid syntax
+bs.findAll(c'table', class_="resTable")
+# OUT:   File "<input>", line 1
+# OUT:     bs.findAll(c'table', class_="resTable")
+# OUT:                       ^
+# OUT: SyntaxError: invalid syntax
+bs.findAll('table', class_="resTable")
+# OUT: []
+bs.findAll('table.resTable")
+# OUT:   File "<input>", line 1
+# OUT:     bs.findAll('table.resTable")
+# OUT:                                ^
+# OUT: SyntaxError: EOL while scanning string literal
+bs.findAll('table.resTable')
+# OUT: []
