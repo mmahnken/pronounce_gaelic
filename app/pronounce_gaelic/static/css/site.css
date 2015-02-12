@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Futura;
+}
+
+#header {
+    font-size: 3.0em;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0.5em;
+}
+
+#subheader {
+    font-size: 0.5em;
+}
+
+table {
+    border: none;
+}
+
+#nav {
+    font-size: 2em;
+    background-color: #97A2E5;
+}
+
+div.content {
+    margin: 2em;
+    padding: 1em;
+}
+
+#workout-maker {
+    display: none;
+    background-color: #EAD995;
+    padding: 1em;
+}
+
+.nav-crumb {
+    padding: 0.5em 2em 0.5em 2em;
+    cursor: pointer;
+    color: white;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+#keypress-notice {
+    padding: 0.3em;
+    display: none;
+    background-color: purple;
+}
+
+input {
+    border: none;
+    font-size: 1.5em;
+    font-family: Futura;
+    color: white;
+    background-color: black;
+    padding: 0.4em;
+}

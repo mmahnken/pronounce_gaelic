@@ -1,0 +1,65 @@
+[
+    {
+        "model": "pronounce_gaelic.ReferenceWord",
+        "pk": 1,
+        "fields" : {
+            "english_usage": "computer",
+            "word": "coimpiutair (masc.)",
+            "url": "/static/ref_audio/computer.mp3"
+        }
+    },
+    {
+        "model": "pronounce_gaelic.ReferenceWord",
+        "pk": 2,
+        "fields" : {
+            "english_usage": "giraffe",
+            "word": "sioraf (masc.)",
+            "url": "/static/ref_audio/giraffe.mp3"
+        }
+    },
+    {
+        "model": "pronounce_gaelic.ReferenceWord",
+        "pk": 3,
+        "fields" : {
+            "english_usage": "helmet",
+            "word": "clogad (masc.)",
+            "url": "/static/ref_audio/helmet.mp3"
+        }
+    },
+    {
+        "model": "pronounce_gaelic.ReferenceWord",
+        "pk": 4,
+        "fields" : {
+            "english_usage": "cookie",
+            "word": "briosgaid (fem.)",
+            "url": "/static/ref_audio/cookie.mp3"
+        }
+    },
+    {
+        "model": "pronounce_gaelic.ReferenceWord",
+        "pk": 5,
+        "fields" : {
+            "english_usage": "mother",
+            "word": "màthair (fem.)",
+            "url": "/static/ref_audio/mother.mp3"
+        }
+    },
+    {
+        "model": "pronounce_gaelic.ReferenceWord",
+        "pk": 6,
+        "fields" : {
+            "english_usage": "window",
+            "word": "uinneag (fem.)",
+            "url": "/static/ref_audio/window.mp3"
+        }
+    },
+    {
+        "model": "pronounce_gaelic.ReferenceWord",
+        "pk": 7,
+        "fields" : {
+            "english_usage": "comprehension, understanding",
+            "word": "tuigse (fem.)",
+            "url": "/static/ref_audio/understanding.mp3"
+        }
+    }
+]
