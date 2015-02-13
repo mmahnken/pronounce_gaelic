@@ -1,5 +1,5 @@
-# pronounce_gaelic
-a foreign language learning game 
+# Pronounce Gaelic
+A foreign language learning game that leverages the power of React.js, HTML5, (eventually d3) and your beautiful voice. 
 
 ## Languages Supported
 - [x] Gaelic
