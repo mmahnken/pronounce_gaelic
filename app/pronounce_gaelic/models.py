@@ -1,5 +1,4 @@
 from django.db import models
-import json
 
 # Create your models here.
 class ReferenceWord(models.Model):
@@ -20,6 +19,7 @@ class ReferenceWord(models.Model):
 
 class Game(models.Model):
 	created_at = models.DateTimeField('date of game')
+	# user_words = relationship()
 	
 	class Meta:
 		db_table = 'games'	

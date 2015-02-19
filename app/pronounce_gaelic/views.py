@@ -22,9 +22,9 @@ def receive_stream():
     # return id, go to process func? or return response?
     pass
 
-def process(request, user_word_id):
+def process(request, word_id):
     ms = train('ref_audio')
-    ref_word = ReferenceWord.objects.get(pk=user_word_id)
+    ref_word = ReferenceWord.objects.get(pk=word_id)
     sorted_results = compare('user_audio/computer.wav', 'ref_audio/computer.mp3', ms)
     # return HttpResponse("You compared two words, and the results were %s" % sorted_results)
     # return render(request, 'pronounce_gaelic/index.html', {results: results})

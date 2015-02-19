@@ -1,52 +1,55 @@
-import BeautifulSoup
-import os
-from subprocess import call
-import re
+from sys import argv
+import codecs
 
-def read_file():
-	f = open('words.txt')
-	words = f.read()
-	f.close()
-	return words
+SCRIPT, FILENAME, FIXTURENAME = argv
 
-def create_list(words):
-	l = words.split(' ')
-	for w in l[:]:
-		if w[0] == '(' or w[-1] == ')':
-			l.remove(w)
-	print l
-	return l
+def make_rows(csv_file):
+    f = codecs.open(csv_file, 'r', 'utf-8')
+    unicode_lines = f.readlines()
+    lines = [line.encode('ascii', 'ignore') for line in unicode_lines]
+    f.close()
+    return lines
 
-def scrape_dict(word_list):
-	fd = open('audio.csv','a')
-	for word in word_list:
-		call(['phantomjs', 'scrape.js', word])   # call phantom get html, create txt file
-		row = process('phantom_pages/%s.txt' % word)   # process the txt file into csv row
-		fd.write(row.encode('utf8'))
-		os.remove('phantom_pages/%s.txt' % word) # remove file
-	fd.close()
-	return
-		
-def process(phantom_filename):
-	"""Take a txt file of html from Gaelic Dict website,
-	output is gaelic word, english usage, and s3 url to mp3 file."""
-	f = open(phantom_filename)
-	html = f.read()
-	f.close()
-	bs = BeautifulSoup.BeautifulSoup(html)
-	if bs.find('div', {'id':'errorContainer'}).findAll('div')[0].text != 'No results found.':
-		table = bs.find('table', {'class':'resTable'})
-		rows = table.findAll('tr')
-		columns = rows[1].findAll('td')
-		usage = columns[1].text.replace('!', '')
-		usage = re.split('1|2|3|4|5|6|7', usage)
-		usage = ';'.join(usage)
-		if rows[1].find('source'):
-			url = rows[1].find('source')['src']
-		else:
-			url = None
-		csv_row = '%s,%s,%s\n' % (columns[0].text, usage, str(url))
-		print csv_row
-		return csv_row
-	else:
-		return ''
+def make_fixture(new_file_name, words_list):
+    f = open('words.json')
+    fixture_file = open(new_file_name,'a')
+    num = 1
+    for row in words_list:
+        j, word = make_json(row, num)
+        if j and word:
+            fixture_file.write(j.encode('ascii', 'ignore'))
+            print "Wrote %s, %r rows left" % (word, len(words_list)-num)
+        num = num + 1
+    f.close()
+    fixture_file.close()
+    return
+
+def make_json(row, pk):
+    columns = row.split(',')
+    if len(columns) < 3:
+        return None, None
+    if columns[1][0] == ';':
+        english = columns[1].split(';')[1]
+    else:
+        english = columns[1]
+
+    json = """{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": %s,
+        "fields" : {
+            "english_usage": "%s",
+            "word": "%s",
+            "url": "%s"
+        }
+},\n""" % (pk, english, columns[0], columns[-1].rstrip())
+    return json, english
+
+def main():
+    rows = make_rows(FILENAME)
+    make_fixture(FIXTURENAME, rows)
+    return
+
+
+
+if __name__ == "__main__":
+    main()

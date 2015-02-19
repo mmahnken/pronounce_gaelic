@@ -13,5 +13,5 @@ A foreign language learning game that leverages the power of React.js, HTML5, (e
  - make reasoned pronunciation attempts using an engaging game interface
  - see visual feedback of your pronunciation attempt
  - algorithmic comparison of your pronunciation and a native speaker's pronunciation
- - measure your improvement in high scores
+ - track your improvement with high scores
 
