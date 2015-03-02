@@ -1,5 +1,7 @@
 /** @jsx React.DOM */
 
+var AudioVisualization = require('AudioVisualization');
+
 var Recording = React.createClass({
     render: function() {
         return (
@@ -23,7 +25,9 @@ var WordRow = React.createClass({
             audioRecorder: null,
             recordings: [],
             buttonClass: 'btn btn-primary',
-            buttonText: 'Pronounce it!'
+            buttonText: 'Pronounce it!',
+            d3Data: [],
+            domain: {x:[], y:[]}
         });
     },
     gotStream: function(stream) {
@@ -35,10 +39,21 @@ var WordRow = React.createClass({
         this.state.audioInput.connect(inputPoint);
 
         this.state.audioRecorder = new Recorder( inputPoint );
+
+        //
+    },
+    updateViz: function(){
+        if (this.state.recording) {
+            var bufferLength = this.state.analyser.frequencyBinCount;
+            var dataArray = new Uint8Array(bufferLength);
+            this.state.analyser.getByteTimeDomainData(dataArray);
+            this.setState({d3Data: dataArray});
+        } 
     },
     toggleRecording: function(event) {
         if (this.state.recording) {
             // stop recording
+            clearInterval();
             this.state.audioRecorder.stop();
             this.setState({
                 recording: false,
@@ -46,18 +61,29 @@ var WordRow = React.createClass({
                 buttonText: 'Pronounce it!'
             });
             this.createDownloadLink();
+
         } else {
             // start recording
             if (!this.state.audioRecorder) {
                 return;
             }
+
+            var analyser = this.state.audioContext.createAnalyser();
+            this.state.realAudioInput.connect(analyser);
+            analyser.fftSize = 256; // so the bars aren't really thin
             this.setState({
+                domain: {x: [0, analyser.fftSize], y: [0, analyser.fftSize]},
                 recording: true,
                 buttonClass: 'btn btn-danger',
-                buttonText: 'Recording...'
+                buttonText: 'Recording...',
+                analyser: analyser
             });
             this.state.audioRecorder.clear();
             this.state.audioRecorder.record();
+
+            // fourier transform visualization
+            setInterval(this.updateViz, 200);
+
         }
     },
     createDownloadLink: function() {
@@ -106,6 +132,7 @@ var WordRow = React.createClass({
         });
     },
     render: function() {
+        console.log(this.state.d3Data);
         var recordings_list = [];
         this.state.recordings.forEach(function(r) {
             recordings_list.push(<Recording data={r} />);
@@ -128,6 +155,9 @@ var WordRow = React.createClass({
                             <div id="recordings">
                                 {recordings_list}
                             </div>
+                        </div>
+                        <div className="col-md-4">
+                            <AudioVisualization data={this.state.d3Data} domain={this.state.domain}/>
                         </div>
                     </div>
                 </li>
@@ -171,10 +201,8 @@ var Game = React.createClass({
             navigator.mozGetUserMedia || navigator.msGetUserMedia);
     },
     componentWillMount: function() {
-        if (this.checkForUserMedia()) {
-            alert('You can play the game.')
-        } else {
-            alert('getUserMedia() is not supported in your browser');
+        if (!this.checkForUserMedia()) {
+            alert('Oh no! getUserMedia() is not supported in your browser');
         }
         this.loadWords();
     },
@@ -184,12 +212,6 @@ var Game = React.createClass({
                 <WordArea words={this.state.words} />
             </div>
             );
-    }
-});
-
-var Test = React.createClass({
-    render: function() {
-        return (<p>HEY </p>);
     }
 });
 

@@ -1,0 +1,5411 @@
+[
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 1,
+        "fields" : {
+            "english_usage": "wave",
+            "word": "tonn(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32377.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 2,
+        "fields" : {
+            "english_usage": "wide",
+            "word": "farsaing",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28711.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 3,
+        "fields" : {
+            "english_usage": "world",
+            "word": "saoghal(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18543.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 4,
+        "fields" : {
+            "english_usage": "vowel",
+            "word": "fuaimreag(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28946.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 5,
+        "fields" : {
+            "english_usage": "we",
+            "word": "sinn (sinne)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19304.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 6,
+        "fields" : {
+            "english_usage": "wife",
+            "word": "ciad-bhean(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 7,
+        "fields" : {
+            "english_usage": "write off a laptop",
+            "word": "cuir laptop s a' chunntas",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/8319.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 8,
+        "fields" : {
+            "english_usage": "waitor",
+            "word": "gille-frithealaidh(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 9,
+        "fields" : {
+            "english_usage": "weak",
+            "word": "fann",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31773.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 10,
+        "fields" : {
+            "english_usage": "win the toilet",
+            "word": "buannaich an taigh-beag",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4624.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 11,
+        "fields" : {
+            "english_usage": "long stick",
+            "word": "slat(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19443.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 12,
+        "fields" : {
+            "english_usage": "wake (of a boat)",
+            "word": "ruith-chuip(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/57381.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 13,
+        "fields" : {
+            "english_usage": "up",
+            "word": "suas",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19990.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 14,
+        "fields" : {
+            "english_usage": "wear out",
+            "word": "teirig",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20467.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 15,
+        "fields" : {
+            "english_usage": "wind",
+            "word": "gaoth(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12261.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 16,
+        "fields" : {
+            "english_usage": "year",
+            "word": "bliadhna(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29547.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 17,
+        "fields" : {
+            "english_usage": "walk",
+            "word": "coisich",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7545.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 18,
+        "fields" : {
+            "english_usage": "wedding",
+            "word": "banais(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30193.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 19,
+        "fields" : {
+            "english_usage": "window",
+            "word": "uinneag(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 20,
+        "fields" : {
+            "english_usage": "yellow",
+            "word": "buidhe",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4643.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 21,
+        "fields" : {
+            "english_usage": "wall",
+            "word": "balla(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3171.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 22,
+        "fields" : {
+            "english_usage": "Wednesday (Wed)",
+            "word": "Diciadain (DiC)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9818.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 23,
+        "fields" : {
+            "english_usage": "wine",
+            "word": "fon(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11491.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 24,
+        "fields" : {
+            "english_usage": "yes",
+            "word": "seadh!",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18648.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 25,
+        "fields" : {
+            "english_usage": "war",
+            "word": "cogadh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31236.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 26,
+        "fields" : {
+            "english_usage": "week",
+            "word": "seachdain(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18636.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 27,
+        "fields" : {
+            "english_usage": "wing (also in architecture)",
+            "word": "sgiath(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19006.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 28,
+        "fields" : {
+            "english_usage": "you(se) (;ndperson plural; plus emphatic form)",
+            "word": "sibh (sibhse)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19242.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 29,
+        "fields" : {
+            "english_usage": "warm (temperature)",
+            "word": "blth",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4093.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 30,
+        "fields" : {
+            "english_usage": "weight",
+            "word": "cudam(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/51123.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 31,
+        "fields" : {
+            "english_usage": "winter",
+            "word": "geamhradh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12380.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 32,
+        "fields" : {
+            "english_usage": "young",
+            "word": "g",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16647.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 33,
+        "fields" : {
+            "english_usage": "wash (stale urine in waulking)",
+            "word": "brn-luaidh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/49683.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 34,
+        "fields" : {
+            "english_usage": "west(ern)",
+            "word": "siar",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32230.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 35,
+        "fields" : {
+            "english_usage": "woman",
+            "word": "bean(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3399.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 36,
+        "fields" : {
+            "english_usage": "rice (oryza sativa)",
+            "word": "rus(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27608.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 37,
+        "fields" : {
+            "english_usage": "six (used if followed by a noun)",
+            "word": "sia(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19217.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 38,
+        "fields" : {
+            "english_usage": "tea",
+            "word": "t(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/21961.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 39,
+        "fields" : {
+            "english_usage": "pants (plural only)",
+            "word": "pantaichean(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2935.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 40,
+        "fields" : {
+            "english_usage": "rich soil",
+            "word": "talamh mith",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/49793.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 41,
+        "fields" : {
+            "english_usage": "sixteenth",
+            "word": "sia deugamh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27958.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 42,
+        "fields" : {
+            "english_usage": "teach",
+            "word": "teagaisg",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32347.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 43,
+        "fields" : {
+            "english_usage": "paper",
+            "word": "pipear(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16859.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 44,
+        "fields" : {
+            "english_usage": "right",
+            "word": "cead(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5356.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 45,
+        "fields" : {
+            "english_usage": "sixty (;0)",
+            "word": "seasgad(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31389.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 46,
+        "fields" : {
+            "english_usage": "teacher",
+            "word": "neach-teagaisg(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/33980.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 47,
+        "fields" : {
+            "english_usage": "parent",
+            "word": "prant(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30760.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 48,
+        "fields" : {
+            "english_usage": "ring",
+            "word": "finnte(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 49,
+        "fields" : {
+            "english_usage": "skin",
+            "word": "craiceann(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7908.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 50,
+        "fields" : {
+            "english_usage": "team",
+            "word": "sgioba(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19018.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 51,
+        "fields" : {
+            "english_usage": "Park Brue (W Isls)",
+            "word": "Pirc Bhr",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/43445.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 52,
+        "fields" : {
+            "english_usage": "river",
+            "word": "abhainn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 53,
+        "fields" : {
+            "english_usage": "skirt (garment and in general)",
+            "word": "sgiort(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19027.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 54,
+        "fields" : {
+            "english_usage": "tear away",
+            "word": "spon",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32292.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 55,
+        "fields" : {
+            "english_usage": "pass (movement",
+            "word": "pas(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/35735.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 56,
+        "fields" : {
+            "english_usage": "roof",
+            "word": "mullach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/15988.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 57,
+        "fields" : {
+            "english_usage": "sky",
+            "word": "speur(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19713.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 58,
+        "fields" : {
+            "english_usage": "technology",
+            "word": "teicneolas(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20456.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 59,
+        "fields" : {
+            "english_usage": "patient",
+            "word": "foighidneach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11676.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 60,
+        "fields" : {
+            "english_usage": "room",
+            "word": "semar(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 61,
+        "fields" : {
+            "english_usage": "a",
+            "word": "t(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20383.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 62,
+        "fields" : {
+            "english_usage": "sleep",
+            "word": "cadal(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4788.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 63,
+        "fields" : {
+            "english_usage": "telephone conferencing",
+            "word": "co-labhairt fn",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 64,
+        "fields" : {
+            "english_usage": "pattern",
+            "word": "ptaran(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/52644.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 65,
+        "fields" : {
+            "english_usage": "root",
+            "word": "reumh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/52246.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 66,
+        "fields" : {
+            "english_usage": "slow",
+            "word": "mall",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31956.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 67,
+        "fields" : {
+            "english_usage": "television (tv)",
+            "word": "telebhisean (tbh)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20485.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 68,
+        "fields" : {
+            "english_usage": "pay",
+            "word": "dol",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9856.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 69,
+        "fields" : {
+            "english_usage": "run without a chart",
+            "word": "ruith gun chairt",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 70,
+        "fields" : {
+            "english_usage": "rick",
+            "word": "ruc(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/44044.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 71,
+        "fields" : {
+            "english_usage": "temperature",
+            "word": "teothachd(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28452.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 72,
+        "fields" : {
+            "english_usage": "peace",
+            "word": "sth(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31381.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 73,
+        "fields" : {
+            "english_usage": "sad",
+            "word": "dubhach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31713.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 74,
+        "fields" : {
+            "english_usage": "smell a smell",
+            "word": "fairich fileadh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11056.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 75,
+        "fields" : {
+            "english_usage": "ten (;0) (eleven/twelve used(h)euge.g.aon deug)",
+            "word": "deich(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9652.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 76,
+        "fields" : {
+            "english_usage": "pen (writing implement)",
+            "word": "peann(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16944.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 77,
+        "fields" : {
+            "english_usage": "salt water",
+            "word": "sl(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32153.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 78,
+        "fields" : {
+            "english_usage": "smile",
+            "word": "smig(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 79,
+        "fields" : {
+            "english_usage": "theatre",
+            "word": "tatar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/33601.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 80,
+        "fields" : {
+            "english_usage": "pencil",
+            "word": "peansail(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29270.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 81,
+        "fields" : {
+            "english_usage": "sand",
+            "word": "gaineach(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/43037.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 82,
+        "fields" : {
+            "english_usage": "snow",
+            "word": "sneachd(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19579.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 83,
+        "fields" : {
+            "english_usage": "they",
+            "word": "iad (iadsan)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13358.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 84,
+        "fields" : {
+            "english_usage": "person",
+            "word": "neach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32028.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 85,
+        "fields" : {
+            "english_usage": "Saturday",
+            "word": "Disathairne (DiS)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9902.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 86,
+        "fields" : {
+            "english_usage": "soap",
+            "word": "siabann(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19224.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 87,
+        "fields" : {
+            "english_usage": "thick (not slender)",
+            "word": "tiugh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/22082.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 88,
+        "fields" : {
+            "english_usage": "photograph",
+            "word": "grian-dealbh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12959.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 89,
+        "fields" : {
+            "english_usage": "school",
+            "word": "sgoil(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19066.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 90,
+        "fields" : {
+            "english_usage": "soft",
+            "word": "maoth",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29567.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 91,
+        "fields" : {
+            "english_usage": "thin water-gruel",
+            "word": "easach(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4532.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 92,
+        "fields" : {
+            "english_usage": "piece of wood",
+            "word": "maide(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29399.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 93,
+        "fields" : {
+            "english_usage": "science",
+            "word": "saidheans(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27753.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 94,
+        "fields" : {
+            "english_usage": "clod (person and lump of soil)",
+            "word": "clod(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/49319.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 95,
+        "fields" : {
+            "english_usage": "think of something",
+            "word": "meraich",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/15540.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 96,
+        "fields" : {
+            "english_usage": "pig bristle",
+            "word": "calg(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5004.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 97,
+        "fields" : {
+            "english_usage": "screen (in general)",
+            "word": "sgilean(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27765.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 98,
+        "fields" : {
+            "english_usage": "soldier",
+            "word": "saighdear(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18460.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 99,
+        "fields" : {
+            "english_usage": "third (part)",
+            "word": "trian(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28528.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 100,
+        "fields" : {
+            "english_usage": "pink",
+            "word": "pinc",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30720.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 101,
+        "fields" : {
+            "english_usage": "sea",
+            "word": "fairge(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11051.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 102,
+        "fields" : {
+            "english_usage": "son",
+            "word": "mac(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 103,
+        "fields" : {
+            "english_usage": "a thirteenth",
+            "word": "tritheamh deug",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/22411.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 104,
+        "fields" : {
+            "english_usage": "plane",
+            "word": "locair",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/49466.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 105,
+        "fields" : {
+            "english_usage": "season",
+            "word": "seusan(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26328.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 106,
+        "fields" : {
+            "english_usage": "song",
+            "word": "ran(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16760.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 107,
+        "fields" : {
+            "english_usage": "thirty (;0)",
+            "word": "trithead(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31387.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 108,
+        "fields" : {
+            "english_usage": "plant",
+            "word": "plannt(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/44058.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 109,
+        "fields" : {
+            "english_usage": "second in command",
+            "word": "tnaiste(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/34261.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 110,
+        "fields" : {
+            "english_usage": "sound",
+            "word": "fuaim(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28059.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 111,
+        "fields" : {
+            "english_usage": "thousand",
+            "word": "mle(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28530.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 112,
+        "fields" : {
+            "english_usage": "plastic",
+            "word": "plastaig",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27080.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 113,
+        "fields" : {
+            "english_usage": "second in command",
+            "word": "tnaiste(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/34261.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 114,
+        "fields" : {
+            "english_usage": "broth",
+            "word": "brot(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4479.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 115,
+        "fields" : {
+            "english_usage": "three",
+            "word": "tr(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/22381.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 116,
+        "fields" : {
+            "english_usage": "plate",
+            "word": "truinnsear(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/22447.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 117,
+        "fields" : {
+            "english_usage": "secretary (employee)",
+            "word": "rnaire(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27806.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 118,
+        "fields" : {
+            "english_usage": "south",
+            "word": "deas",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9646.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 119,
+        "fields" : {
+            "english_usage": "throw an apple to Calum",
+            "word": "tilg ubhal air Calum",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/21990.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 120,
+        "fields" : {
+            "english_usage": "play",
+            "word": "cluichd",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/51002.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 121,
+        "fields" : {
+            "english_usage": "see on the horizon",
+            "word": "faic air fire",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10919.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 122,
+        "fields" : {
+            "english_usage": "space",
+            "word": "sps(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29364.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 123,
+        "fields" : {
+            "english_usage": "Thursday (Thu)",
+            "word": "Diardaoin (Dia)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9809.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 124,
+        "fields" : {
+            "english_usage": "player",
+            "word": "cluicheadair(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30865.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 125,
+        "fields" : {
+            "english_usage": "seed",
+            "word": "pr(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27168.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 126,
+        "fields" : {
+            "english_usage": "not (negative imperative e.g.na bruidhinndo not speak)",
+            "word": "na",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/53200.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 127,
+        "fields" : {
+            "english_usage": "ticket",
+            "word": "tiocaid(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/22040.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 128,
+        "fields" : {
+            "english_usage": "pocket",
+            "word": "pca(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39105.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 129,
+        "fields" : {
+            "english_usage": "sell",
+            "word": "reic",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/17581.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 130,
+        "fields" : {
+            "english_usage": "spoon",
+            "word": "spin(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19679.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 131,
+        "fields" : {
+            "english_usage": "tight",
+            "word": "teann",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20417.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 132,
+        "fields" : {
+            "english_usage": "poison",
+            "word": "neimh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39125.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 133,
+        "fields" : {
+            "english_usage": "September (Sept)",
+            "word": "an t-Sultain (Sult)(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2402.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 134,
+        "fields" : {
+            "english_usage": "clog",
+            "word": "bac",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30186.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 135,
+        "fields" : {
+            "english_usage": "time",
+            "word": "tm(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/33563.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 136,
+        "fields" : {
+            "english_usage": "police",
+            "word": "poileas(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/17087.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 137,
+        "fields" : {
+            "english_usage": "seven (used in counting if followed by a noun)",
+            "word": "seachd(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18631.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 138,
+        "fields" : {
+            "english_usage": "spring (in geology)",
+            "word": "fuaran(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11857.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 139,
+        "fields" : {
+            "english_usage": "tire yourself out",
+            "word": "sirich thu fhin",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18477.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 140,
+        "fields" : {
+            "english_usage": "a",
+            "word": "t(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20383.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 141,
+        "fields" : {
+            "english_usage": "pool",
+            "word": "lub(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/56337.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 142,
+        "fields" : {
+            "english_usage": "a seventeenth",
+            "word": "seachdamh deug",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18639.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 143,
+        "fields" : {
+            "english_usage": "square",
+            "word": "cernag(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28163.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 144,
+        "fields" : {
+            "english_usage": "toe(cap)",
+            "word": "fraochan(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/48174.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 145,
+        "fields" : {
+            "english_usage": "poor (person)",
+            "word": "bochd(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32803.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 146,
+        "fields" : {
+            "english_usage": "seventy (;0)",
+            "word": "seachdad(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31390.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 147,
+        "fields" : {
+            "english_usage": "stain",
+            "word": "caim(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/53138.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 148,
+        "fields" : {
+            "english_usage": "tongue",
+            "word": "teanga(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32350.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 149,
+        "fields" : {
+            "english_usage": "pork",
+            "word": "muicfheoil(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27169.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 150,
+        "fields" : {
+            "english_usage": "sex",
+            "word": "gn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12771.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 151,
+        "fields" : {
+            "english_usage": "stand back",
+            "word": "air d' ais!",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/1208.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 152,
+        "fields" : {
+            "english_usage": "tool works",
+            "word": "cerdaichean innealan",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/52282.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 153,
+        "fields" : {
+            "english_usage": "pound",
+            "word": "not(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30781.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 154,
+        "fields" : {
+            "english_usage": "sex",
+            "word": "gn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12771.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 155,
+        "fields" : {
+            "english_usage": "star",
+            "word": "reult(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39430.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 156,
+        "fields" : {
+            "english_usage": "tooth",
+            "word": "deud(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42750.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 157,
+        "fields" : {
+            "english_usage": "pray to God",
+            "word": "guidh ri Dia",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13120.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 158,
+        "fields" : {
+            "english_usage": "shake",
+            "word": "crith",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31663.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 159,
+        "fields" : {
+            "english_usage": "stone",
+            "word": "clach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/6924.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 160,
+        "fields" : {
+            "english_usage": "top",
+            "word": "uachdar(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 161,
+        "fields" : {
+            "english_usage": "president",
+            "word": "ceann-suidhe(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27232.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 162,
+        "fields" : {
+            "english_usage": "shallow",
+            "word": "eu-domhain",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10799.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 163,
+        "fields" : {
+            "english_usage": "stop",
+            "word": "sguir",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19180.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 164,
+        "fields" : {
+            "english_usage": "touch a drop (of liquor)",
+            "word": "blais deur",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4047.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 165,
+        "fields" : {
+            "english_usage": "price",
+            "word": "prs(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32110.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 166,
+        "fields" : {
+            "english_usage": "she",
+            "word": "i (ise)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13356.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 167,
+        "fields" : {
+            "english_usage": "store-room",
+            "word": "cuile(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/41758.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 168,
+        "fields" : {
+            "english_usage": "town",
+            "word": "baile(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3040.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 169,
+        "fields" : {
+            "english_usage": "priest",
+            "word": "sagart(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18452.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 170,
+        "fields" : {
+            "english_usage": "ship",
+            "word": "long(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/14586.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 171,
+        "fields" : {
+            "english_usage": "straight",
+            "word": "dreach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9884.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 172,
+        "fields" : {
+            "english_usage": "train",
+            "word": "tran(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28664.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 173,
+        "fields" : {
+            "english_usage": "prison",
+            "word": "gainntir(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42481.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 174,
+        "fields" : {
+            "english_usage": "shirt",
+            "word": "line(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31196.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 175,
+        "fields" : {
+            "english_usage": "street",
+            "word": "srid(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19779.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 176,
+        "fields" : {
+            "english_usage": "train",
+            "word": "tran(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28664.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 177,
+        "fields" : {
+            "english_usage": "station (in transport and in general)",
+            "word": "stisean(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28192.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 178,
+        "fields" : {
+            "english_usage": "programme",
+            "word": "prgram(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27281.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 179,
+        "fields" : {
+            "english_usage": "shoesole",
+            "word": "breaban(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30672.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 180,
+        "fields" : {
+            "english_usage": "strong reproach",
+            "word": "ailis(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/44318.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 181,
+        "fields" : {
+            "english_usage": "carrying",
+            "word": "gilan(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12571.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 182,
+        "fields" : {
+            "english_usage": "pull",
+            "word": "spiod",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 183,
+        "fields" : {
+            "english_usage": "shoot",
+            "word": "bachlag(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3002.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 184,
+        "fields" : {
+            "english_usage": "student",
+            "word": "oileanach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16701.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 185,
+        "fields" : {
+            "english_usage": "tree",
+            "word": "craobh(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7941.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 186,
+        "fields" : {
+            "english_usage": "push",
+            "word": "put",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27233.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 187,
+        "fields" : {
+            "english_usage": "short",
+            "word": "goirid",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12850.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 188,
+        "fields" : {
+            "english_usage": "sugar",
+            "word": "sicar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19390.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 189,
+        "fields" : {
+            "english_usage": "truck",
+            "word": "truca(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/34416.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 190,
+        "fields" : {
+            "english_usage": "queen",
+            "word": "bnrigh(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30231.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 191,
+        "fields" : {
+            "english_usage": "short",
+            "word": "goirid",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12850.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 192,
+        "fields" : {
+            "english_usage": "suit (of clothes)",
+            "word": "deise(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9670.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 193,
+        "fields" : {
+            "english_usage": "Tuesday",
+            "word": "Dimirt (DiM)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9836.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 194,
+        "fields" : {
+            "english_usage": "quiet",
+            "word": "ist!",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/43289.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 195,
+        "fields" : {
+            "english_usage": "shoulder",
+            "word": "gualann(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13105.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 196,
+        "fields" : {
+            "english_usage": "summer",
+            "word": "samhradh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18496.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 197,
+        "fields" : {
+            "english_usage": "turn off",
+            "word": "cuir dheth",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/8568.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 198,
+        "fields" : {
+            "english_usage": "race (in sports)",
+            "word": "ris(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/17600.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 199,
+        "fields" : {
+            "english_usage": "sick",
+            "word": "isleanach",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 200,
+        "fields" : {
+            "english_usage": "sun",
+            "word": "grian(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12953.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 201,
+        "fields" : {
+            "english_usage": "ten (;0) (eleven/twelve used(h)euge.g.aon deug)",
+            "word": "deich(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9652.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 202,
+        "fields" : {
+            "english_usage": "race (in sports)",
+            "word": "ris(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/17600.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 203,
+        "fields" : {
+            "english_usage": "side",
+            "word": "slios(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/34053.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 204,
+        "fields" : {
+            "english_usage": "Sunday",
+            "word": "Dmhnach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42267.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 205,
+        "fields" : {
+            "english_usage": "twenty (",
+            "word": "fichead(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31386.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 206,
+        "fields" : {
+            "english_usage": "radio",
+            "word": "ridio(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27406.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 207,
+        "fields" : {
+            "english_usage": "sign",
+            "word": "soidhne(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27933.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 208,
+        "fields" : {
+            "english_usage": "sweat",
+            "word": "fallas(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31771.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 209,
+        "fields" : {
+            "english_usage": "twenty (",
+            "word": "fichead(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31386.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 210,
+        "fields" : {
+            "english_usage": "rain",
+            "word": "fearthainn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/44008.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 211,
+        "fields" : {
+            "english_usage": "sign",
+            "word": "soidhne(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27933.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 212,
+        "fields" : {
+            "english_usage": "swim off",
+            "word": "falbh air an t-snmh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11080.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 213,
+        "fields" : {
+            "english_usage": "two or three",
+            "word": "a dh no tr",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39564.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 214,
+        "fields" : {
+            "english_usage": "red (not of natural hair/fur colours)",
+            "word": "dearg",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9623.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 215,
+        "fields" : {
+            "english_usage": "silver",
+            "word": "airgeadaich",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 216,
+        "fields" : {
+            "english_usage": "t-shirt",
+            "word": "line-t(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42072.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 217,
+        "fields" : {
+            "english_usage": "ugly",
+            "word": "grnna",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/54312.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 218,
+        "fields" : {
+            "english_usage": "religion has corrupted many a good man",
+            "word": "'s iomadh duine laghach a mhill an creideamh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/40610.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 219,
+        "fields" : {
+            "english_usage": "sing a song",
+            "word": "gabh ran",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12053.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 220,
+        "fields" : {
+            "english_usage": "table",
+            "word": "brd(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29266.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 221,
+        "fields" : {
+            "english_usage": "university",
+            "word": "oilthigh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16702.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 222,
+        "fields" : {
+            "english_usage": "reporter",
+            "word": "neach-aithisg(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 223,
+        "fields" : {
+            "english_usage": "sister",
+            "word": "piuthar(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/17033.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 224,
+        "fields" : {
+            "english_usage": "tall",
+            "word": "slatail",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 225,
+        "fields" : {
+            "english_usage": "up",
+            "word": "suas",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19990.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 226,
+        "fields" : {
+            "english_usage": "restaurant",
+            "word": "taigh-bdh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42929.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 227,
+        "fields" : {
+            "english_usage": "sit (down)",
+            "word": "suidh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20020.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 228,
+        "fields" : {
+            "english_usage": "taste",
+            "word": "tuigse-bhidheachd(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 229,
+        "fields" : {
+            "english_usage": "watch(ing)",
+            "word": "faire(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11045.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 230,
+        "fields" : {
+            "english_usage": "wet",
+            "word": "fliuch",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/15.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 231,
+        "fields" : {
+            "english_usage": "wood",
+            "word": "fiodh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11487.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 232,
+        "fields" : {
+            "english_usage": "victim",
+            "word": "obairteach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13501.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 233,
+        "fields" : {
+            "english_usage": "water",
+            "word": "uisge(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/1.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 234,
+        "fields" : {
+            "english_usage": "white",
+            "word": "geal",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12348.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 235,
+        "fields" : {
+            "english_usage": "work(ing) day",
+            "word": "latha-obrach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/45167.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 236,
+        "fields" : {
+            "english_usage": "voice (also in grammar)",
+            "word": "guth(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13272.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 237,
+        "fields" : {
+            "english_usage": "February (Feb.)",
+            "word": "An Gearran (Gearr.)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2157.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 238,
+        "fields" : {
+            "english_usage": "hair",
+            "word": "falt(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29935.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 239,
+        "fields" : {
+            "english_usage": "kitchen",
+            "word": "cidsin(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31206.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 240,
+        "fields" : {
+            "english_usage": "million",
+            "word": "muillean(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 241,
+        "fields" : {
+            "english_usage": "feed",
+            "word": "biadh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30276.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 242,
+        "fields" : {
+            "english_usage": "half",
+            "word": "leth(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25574.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 243,
+        "fields" : {
+            "english_usage": "knee",
+            "word": "gln(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29558.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 244,
+        "fields" : {
+            "english_usage": "minute",
+            "word": "mionaid(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31992.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 245,
+        "fields" : {
+            "english_usage": "female",
+            "word": "boireann(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/58865.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 246,
+        "fields" : {
+            "english_usage": "hand",
+            "word": "lmh(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13825.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 247,
+        "fields" : {
+            "english_usage": "knife",
+            "word": "sgian(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 248,
+        "fields" : {
+            "english_usage": "mix",
+            "word": "measg",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/45200.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 249,
+        "fields" : {
+            "english_usage": "a fifteenth",
+            "word": "cigeamh deug",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7388.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 250,
+        "fields" : {
+            "english_usage": "hang about without aim or purpose",
+            "word": "falbh air gmarran",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11083.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 251,
+        "fields" : {
+            "english_usage": "Lake Chad",
+            "word": "Loch Shed",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/14534.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 252,
+        "fields" : {
+            "english_usage": "Monday",
+            "word": "Diluain (DiL)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9834.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 253,
+        "fields" : {
+            "english_usage": "fifth",
+            "word": "cigeamh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25163.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 254,
+        "fields" : {
+            "english_usage": "happy",
+            "word": "subhach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32330.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 255,
+        "fields" : {
+            "english_usage": "lamp",
+            "word": "lampa(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13836.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 256,
+        "fields" : {
+            "english_usage": "money",
+            "word": "airgead(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/1403.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 257,
+        "fields" : {
+            "english_usage": "fifty (",
+            "word": "caogad(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31388.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 258,
+        "fields" : {
+            "english_usage": "hard",
+            "word": "cruaidh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/8145.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 259,
+        "fields" : {
+            "english_usage": "laptop lid",
+            "word": "mullach laptop",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/44716.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 260,
+        "fields" : {
+            "english_usage": "month",
+            "word": "mos(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/15713.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 261,
+        "fields" : {
+            "english_usage": "fight",
+            "word": "tabaid(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/34271.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 262,
+        "fields" : {
+            "english_usage": "hat",
+            "word": "ad(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23017.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 263,
+        "fields" : {
+            "english_usage": "laugh",
+            "word": "gire(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31822.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 264,
+        "fields" : {
+            "english_usage": "moon",
+            "word": "gealach(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12349.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 265,
+        "fields" : {
+            "english_usage": "find favour",
+            "word": "faigh fbhar",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 266,
+        "fields" : {
+            "english_usage": "he",
+            "word": "e (esan)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10436.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 267,
+        "fields" : {
+            "english_usage": "lawyer",
+            "word": "neach-lagha(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16400.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 268,
+        "fields" : {
+            "english_usage": "morning",
+            "word": "maidinn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/33792.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 269,
+        "fields" : {
+            "english_usage": "finger",
+            "word": "corrag-limhe(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7836.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 270,
+        "fields" : {
+            "english_usage": "head",
+            "word": "ceann(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5394.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 271,
+        "fields" : {
+            "english_usage": "leaf",
+            "word": "duilleag(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10227.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 272,
+        "fields" : {
+            "english_usage": "mother",
+            "word": "mthair(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/15462.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 273,
+        "fields" : {
+            "english_usage": "fire",
+            "word": "teine(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20461.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 274,
+        "fields" : {
+            "english_usage": "healthy",
+            "word": "fallain",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11100.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 275,
+        "fields" : {
+            "english_usage": "learn by ear",
+            "word": "ionnsaich air chluais",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13604.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 276,
+        "fields" : {
+            "english_usage": "mountain",
+            "word": "beinn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3461.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 277,
+        "fields" : {
+            "english_usage": "first",
+            "word": "an toiseach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2365.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 278,
+        "fields" : {
+            "english_usage": "hear a sound",
+            "word": "fairich fuaim",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11057.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 279,
+        "fields" : {
+            "english_usage": "left",
+            "word": "cl",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7088.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 280,
+        "fields" : {
+            "english_usage": "mouse (muridae and cricetidae)",
+            "word": "luch(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/14646.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 281,
+        "fields" : {
+            "english_usage": "fish(ing) weir",
+            "word": "cairidh-iasgaich(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39676.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 282,
+        "fields" : {
+            "english_usage": "heart",
+            "word": "cridhe(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31440.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 283,
+        "fields" : {
+            "english_usage": "foot",
+            "word": "cos(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/53595.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 284,
+        "fields" : {
+            "english_usage": "mouth",
+            "word": "bus(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/33056.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 285,
+        "fields" : {
+            "english_usage": "five",
+            "word": "cig(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/53653.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 286,
+        "fields" : {
+            "english_usage": "heat",
+            "word": "in(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 287,
+        "fields" : {
+            "english_usage": "lemon",
+            "word": "liomaid(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/38384.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 288,
+        "fields" : {
+            "english_usage": "horror movie",
+            "word": "film oillteil",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 289,
+        "fields" : {
+            "english_usage": "flat",
+            "word": "ridh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32126.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 290,
+        "fields" : {
+            "english_usage": "heaven",
+            "word": "namh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16406.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 291,
+        "fields" : {
+            "english_usage": "letter (in typography)",
+            "word": "litir(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/14419.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 292,
+        "fields" : {
+            "english_usage": "murder",
+            "word": "murt(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32018.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 293,
+        "fields" : {
+            "english_usage": "floor",
+            "word": "lr(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31899.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 294,
+        "fields" : {
+            "english_usage": "heavy",
+            "word": "trom",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25621.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 295,
+        "fields" : {
+            "english_usage": "library",
+            "word": "leabhar-lann(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26129.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 296,
+        "fields" : {
+            "english_usage": "music",
+            "word": "cel(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5588.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 297,
+        "fields" : {
+            "english_usage": "flower",
+            "word": "flr(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31802.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 298,
+        "fields" : {
+            "english_usage": "hell",
+            "word": "iutharn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25165.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 299,
+        "fields" : {
+            "english_usage": "lie at full length",
+            "word": "sn",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19261.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 300,
+        "fields" : {
+            "english_usage": "down(wards)",
+            "word": "a-stn",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/51307.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 301,
+        "fields" : {
+            "english_usage": "narrow(s)",
+            "word": "caolas(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5133.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 302,
+        "fields" : {
+            "english_usage": "fly",
+            "word": "cuileag(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/8275.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 303,
+        "fields" : {
+            "english_usage": "high",
+            "word": "rd",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2785.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 304,
+        "fields" : {
+            "english_usage": "lift(ing) bridge",
+            "word": "drochaid-togail(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/54250.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 305,
+        "fields" : {
+            "english_usage": "nature",
+            "word": "ndar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26579.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 306,
+        "fields" : {
+            "english_usage": "follow",
+            "word": "lean",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/14032.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 307,
+        "fields" : {
+            "english_usage": "hill",
+            "word": "cnoc(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7214.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 308,
+        "fields" : {
+            "english_usage": "light",
+            "word": "solast(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 309,
+        "fields" : {
+            "english_usage": "neck",
+            "word": "muineal(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42030.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 310,
+        "fields" : {
+            "english_usage": "food",
+            "word": "ln(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31921.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 311,
+        "fields" : {
+            "english_usage": "hole",
+            "word": "toll(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/22224.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 312,
+        "fields" : {
+            "english_usage": "light",
+            "word": "solast(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 313,
+        "fields" : {
+            "english_usage": "needle",
+            "word": "snthad(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19574.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 314,
+        "fields" : {
+            "english_usage": "foot(path)",
+            "word": "cas-cheum(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5308.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 315,
+        "fields" : {
+            "english_usage": "horse groom",
+            "word": "eachlach(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 316,
+        "fields" : {
+            "english_usage": "light",
+            "word": "solast(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 317,
+        "fields" : {
+            "english_usage": "holding",
+            "word": "tac(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20113.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 318,
+        "fields" : {
+            "english_usage": "foot(path)",
+            "word": "cas-cheum(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5308.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 319,
+        "fields" : {
+            "english_usage": "hospital",
+            "word": "ospadal(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16820.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 320,
+        "fields" : {
+            "english_usage": "lip",
+            "word": "bile(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30278.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 321,
+        "fields" : {
+            "english_usage": "network",
+            "word": "lon-cheangal(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26610.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 322,
+        "fields" : {
+            "english_usage": "forest",
+            "word": "mr-choille(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25285.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 323,
+        "fields" : {
+            "english_usage": "hot",
+            "word": "teth",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20487.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 324,
+        "fields" : {
+            "english_usage": "listen carefully/closely/attentively",
+            "word": "bioraich do chluasan",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4010.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 325,
+        "fields" : {
+            "english_usage": "new",
+            "word": "r",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 326,
+        "fields" : {
+            "english_usage": "fork",
+            "word": "beannach(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 327,
+        "fields" : {
+            "english_usage": "hotel",
+            "word": "taigh-sta(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20214.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 328,
+        "fields" : {
+            "english_usage": "location",
+            "word": "suidheachadh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26203.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 329,
+        "fields" : {
+            "english_usage": "newspaper",
+            "word": "pipear-naidheachd(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16866.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 330,
+        "fields" : {
+            "english_usage": "forty (;0)",
+            "word": "ceathrad(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31400.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 331,
+        "fields" : {
+            "english_usage": "hour",
+            "word": "uair(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 332,
+        "fields" : {
+            "english_usage": "lock",
+            "word": "glas(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12624.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 333,
+        "fields" : {
+            "english_usage": "nice",
+            "word": "snog",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19582.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 334,
+        "fields" : {
+            "english_usage": "four (used in counting if followed by a noun)",
+            "word": "ceithir(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5576.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 335,
+        "fields" : {
+            "english_usage": "house",
+            "word": "taigh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/6.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 336,
+        "fields" : {
+            "english_usage": "long",
+            "word": "fada",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10860.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 337,
+        "fields" : {
+            "english_usage": "night",
+            "word": "oidhche(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16658.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 338,
+        "fields" : {
+            "english_usage": "a fourteenth",
+            "word": "ceathramh deug",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5583.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 339,
+        "fields" : {
+            "english_usage": "human",
+            "word": "daonna",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9176.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 340,
+        "fields" : {
+            "english_usage": "loose",
+            "word": "tuanaichte",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39473.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 341,
+        "fields" : {
+            "english_usage": "nine",
+            "word": "naoi(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16354.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 342,
+        "fields" : {
+            "english_usage": "fourth",
+            "word": "ceathramh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5539.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 343,
+        "fields" : {
+            "english_usage": "hundred",
+            "word": "ceud(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25725.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 344,
+        "fields" : {
+            "english_usage": "lose track of time",
+            "word": "caill do shuim",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/36660.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 345,
+        "fields" : {
+            "english_usage": "a nineteenth",
+            "word": "naoidheamh deug",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16357.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 346,
+        "fields" : {
+            "english_usage": "Friday",
+            "word": "Dihaoine (Dih)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9822.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 347,
+        "fields" : {
+            "english_usage": "husband",
+            "word": "fear-taighe(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 348,
+        "fields" : {
+            "english_usage": "loud",
+            "word": "rd-fhuaimneach",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 349,
+        "fields" : {
+            "english_usage": "ninety (90)",
+            "word": "naochad(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31392.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 350,
+        "fields" : {
+            "english_usage": "friend",
+            "word": "caomhnach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42813.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 351,
+        "fields" : {
+            "english_usage": "I understand you now",
+            "word": "tha mi agad a-nis",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/21138.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 352,
+        "fields" : {
+            "english_usage": "love",
+            "word": "grdh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31276.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 353,
+        "fields" : {
+            "english_usage": "no",
+            "word": "chan",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23061.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 354,
+        "fields" : {
+            "english_usage": "front",
+            "word": "beulaibh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30272.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 355,
+        "fields" : {
+            "english_usage": "ice",
+            "word": "eigh(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10643.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 356,
+        "fields" : {
+            "english_usage": "low",
+            "word": "seal",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13659.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 357,
+        "fields" : {
+            "english_usage": "North(ern) Star",
+            "word": "brr-reult(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39429.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 358,
+        "fields" : {
+            "english_usage": "game",
+            "word": "geama(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25359.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 359,
+        "fields" : {
+            "english_usage": "image",
+            "word": "omhachd(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/34472.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 360,
+        "fields" : {
+            "english_usage": "food",
+            "word": "ln(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31921.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 361,
+        "fields" : {
+            "english_usage": "nose",
+            "word": "srn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/19824.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 362,
+        "fields" : {
+            "english_usage": "garden",
+            "word": "lios(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27330.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 363,
+        "fields" : {
+            "english_usage": "inch (measure)",
+            "word": "irleach(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16721.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 364,
+        "fields" : {
+            "english_usage": "magazine",
+            "word": "iris(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26238.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 365,
+        "fields" : {
+            "english_usage": "note (in music)",
+            "word": "pong(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/17136.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 366,
+        "fields" : {
+            "english_usage": "injury",
+            "word": "lot(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29791.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 367,
+        "fields" : {
+            "english_usage": "male",
+            "word": "fireann(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/58864.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 368,
+        "fields" : {
+            "english_usage": "November",
+            "word": "am mos dubh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/22994.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 369,
+        "fields" : {
+            "english_usage": "gift",
+            "word": "todhlac(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/22042.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 370,
+        "fields" : {
+            "english_usage": "inside breast pocket",
+            "word": "pcaid-achlais(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 371,
+        "fields" : {
+            "english_usage": "man",
+            "word": "fear(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11232.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 372,
+        "fields" : {
+            "english_usage": "nuclear",
+            "word": "niclasach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26675.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 373,
+        "fields" : {
+            "english_usage": "girl",
+            "word": "caile(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39711.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 374,
+        "fields" : {
+            "english_usage": "instrument",
+            "word": "ionnsramaid(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25887.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 375,
+        "fields" : {
+            "english_usage": "manager",
+            "word": "manaidsear(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/15204.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 376,
+        "fields" : {
+            "english_usage": "number",
+            "word": "uiread(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 377,
+        "fields" : {
+            "english_usage": "glass (crockery)",
+            "word": "gloine(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12739.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 378,
+        "fields" : {
+            "english_usage": "island community",
+            "word": "coimhearsnachd eileanach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/50765.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 379,
+        "fields" : {
+            "english_usage": "map",
+            "word": "mapa(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/15274.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 380,
+        "fields" : {
+            "english_usage": "ocean",
+            "word": "cuan(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/8214.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 381,
+        "fields" : {
+            "english_usage": "go barren",
+            "word": "dosg",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31040.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 382,
+        "fields" : {
+            "english_usage": "it is all quiet/peaceful",
+            "word": "tha e mu thmh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20594.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 383,
+        "fields" : {
+            "english_usage": "march",
+            "word": "merrs",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 384,
+        "fields" : {
+            "english_usage": "October (Oct.)",
+            "word": "An Dmhair (Dmh.)(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2008.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 385,
+        "fields" : {
+            "english_usage": "God",
+            "word": "An N Math",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32043.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 386,
+        "fields" : {
+            "english_usage": "January (Jan.)",
+            "word": "Am Faoilleach (Faoi.)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/1666.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 387,
+        "fields" : {
+            "english_usage": "market",
+            "word": "margaid(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26294.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 388,
+        "fields" : {
+            "english_usage": "office",
+            "word": "oifig(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/38244.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 389,
+        "fields" : {
+            "english_usage": "gold coin",
+            "word": "bonn-ir(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30393.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 390,
+        "fields" : {
+            "english_usage": "Job (in the Bible)",
+            "word": "Ib(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13497.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 391,
+        "fields" : {
+            "english_usage": "marriage line (knitting pattern)",
+            "word": "loidhne phsta",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29697.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 392,
+        "fields" : {
+            "english_usage": "oil",
+            "word": "ola(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16927.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 393,
+        "fields" : {
+            "english_usage": "good(s)",
+            "word": "bathar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/27277.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 394,
+        "fields" : {
+            "english_usage": "juice",
+            "word": "sgh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25998.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 395,
+        "fields" : {
+            "english_usage": "past tense particle",
+            "word": "do",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/33761.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 396,
+        "fields" : {
+            "english_usage": "old",
+            "word": "sean",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18693.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 397,
+        "fields" : {
+            "english_usage": "grandfather",
+            "word": "seanair(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31313.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 398,
+        "fields" : {
+            "english_usage": "July",
+            "word": "am mos buidhe",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/22993.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 399,
+        "fields" : {
+            "english_usage": "material",
+            "word": "stuthach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/24329.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 400,
+        "fields" : {
+            "english_usage": "old",
+            "word": "sean",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18693.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 401,
+        "fields" : {
+            "english_usage": "grandmother",
+            "word": "seanmhair(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23057.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 402,
+        "fields" : {
+            "english_usage": "jump out of your skin (with fear)",
+            "word": "rach  cochall do chridhe leis an eagal",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/17302.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 403,
+        "fields" : {
+            "english_usage": "May",
+            "word": "An Citean (Cit.)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/1928.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 404,
+        "fields" : {
+            "english_usage": "one (number)",
+            "word": "aon(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2667.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 405,
+        "fields" : {
+            "english_usage": "grass (poaceae/gramineae)",
+            "word": "feur(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11384.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 406,
+        "fields" : {
+            "english_usage": "June (Jun.)",
+            "word": "An t-gmhios(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2363.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 407,
+        "fields" : {
+            "english_usage": "mean",
+            "word": "spocach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32291.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 408,
+        "fields" : {
+            "english_usage": "open",
+            "word": "fosgailte",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11752.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 409,
+        "fields" : {
+            "english_usage": "make grey",
+            "word": "liath",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/44887.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 410,
+        "fields" : {
+            "english_usage": "key",
+            "word": "iuchair(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13702.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 411,
+        "fields" : {
+            "english_usage": "medicine",
+            "word": "ligh(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42353.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 412,
+        "fields" : {
+            "english_usage": "orange",
+            "word": "oraindsear(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/38383.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 413,
+        "fields" : {
+            "english_usage": "green",
+            "word": "uaine",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 414,
+        "fields" : {
+            "english_usage": "kill the ball (in sports)",
+            "word": "leag am ball",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/36515.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 415,
+        "fields" : {
+            "english_usage": "melt together",
+            "word": "co-leagh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/56097.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 416,
+        "fields" : {
+            "english_usage": "orange",
+            "word": "oraindsear(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/38383.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 417,
+        "fields" : {
+            "english_usage": "ground(s)",
+            "word": "bun-adhbhar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/8860.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 418,
+        "fields" : {
+            "english_usage": "kilo",
+            "word": "cileagram (kg)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/6805.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 419,
+        "fields" : {
+            "english_usage": "metal",
+            "word": "meatailt(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26378.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 420,
+        "fields" : {
+            "english_usage": "outside",
+            "word": "taobh a-muigh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/1832.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 421,
+        "fields" : {
+            "english_usage": "grow flaccid",
+            "word": "flagaich",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/58185.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 422,
+        "fields" : {
+            "english_usage": "king",
+            "word": "rgh(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 423,
+        "fields" : {
+            "english_usage": "meter",
+            "word": "meidheadair(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26390.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 424,
+        "fields" : {
+            "english_usage": "page orientation",
+            "word": "comhair na duilleige",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31116.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 425,
+        "fields" : {
+            "english_usage": "gun",
+            "word": "gunna(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31178.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 426,
+        "fields" : {
+            "english_usage": "kiss",
+            "word": "pg(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/17084.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 427,
+        "fields" : {
+            "english_usage": "milk(y) sea",
+            "word": "sionnachan-mara(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/40347.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 428,
+        "fields" : {
+            "english_usage": "black",
+            "word": "dubh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/49271.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 429,
+        "fields" : {
+            "english_usage": "clay",
+            "word": "cr(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/41799.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 430,
+        "fields" : {
+            "english_usage": "disease",
+            "word": "galar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31183.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 431,
+        "fields" : {
+            "english_usage": "basic level",
+            "word": "bun-re(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/55002.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 432,
+        "fields" : {
+            "english_usage": "blind",
+            "word": "dall",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31680.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 433,
+        "fields" : {
+            "english_usage": "clean(ly) shaven",
+            "word": "air a bhearradh gu lom",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/41293.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 434,
+        "fields" : {
+            "english_usage": "doctor",
+            "word": "dotair(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10054.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 435,
+        "fields" : {
+            "english_usage": "adult",
+            "word": "inbheach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13419.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 436,
+        "fields" : {
+            "english_usage": "blood",
+            "word": "fuil(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11877.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 437,
+        "fields" : {
+            "english_usage": "clean(ly) shaven",
+            "word": "air a bhearradh gu lom",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/41293.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 438,
+        "fields" : {
+            "english_usage": "dog",
+            "word": "c(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/8183.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 439,
+        "fields" : {
+            "english_usage": "afternoon",
+            "word": "feasgar (f)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11274.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 440,
+        "fields" : {
+            "english_usage": "blue",
+            "word": "gorm",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 441,
+        "fields" : {
+            "english_usage": "clock",
+            "word": "gleoc(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31456.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 442,
+        "fields" : {
+            "english_usage": "dollar ($)",
+            "word": "dolar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/37908.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 443,
+        "fields" : {
+            "english_usage": "air",
+            "word": "adhar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32462.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 444,
+        "fields" : {
+            "english_usage": "boat",
+            "word": "bta(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3315.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 445,
+        "fields" : {
+            "english_usage": "close",
+            "word": "druid",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10128.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 446,
+        "fields" : {
+            "english_usage": "door",
+            "word": "dorast(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 447,
+        "fields" : {
+            "english_usage": "airport",
+            "word": "port-adhair(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/17167.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 448,
+        "fields" : {
+            "english_usage": "body",
+            "word": "corp(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31655.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 449,
+        "fields" : {
+            "english_usage": "defect",
+            "word": "cearb(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39173.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 450,
+        "fields" : {
+            "english_usage": "dot",
+            "word": "dotag(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/24746.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 451,
+        "fields" : {
+            "english_usage": "alive",
+            "word": "be",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3527.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 452,
+        "fields" : {
+            "english_usage": "bone",
+            "word": "cnimh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31634.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 453,
+        "fields" : {
+            "english_usage": "club",
+            "word": "caman(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29269.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 454,
+        "fields" : {
+            "english_usage": "down(wards)",
+            "word": "a-stn",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/51307.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 455,
+        "fields" : {
+            "english_usage": "animal",
+            "word": "ainmhidh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23361.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 456,
+        "fields" : {
+            "english_usage": "book",
+            "word": "leabhar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 457,
+        "fields" : {
+            "english_usage": "coat",
+            "word": "cta(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7881.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 458,
+        "fields" : {
+            "english_usage": "draw (in sports)",
+            "word": "co-tharraing(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/43307.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 459,
+        "fields" : {
+            "english_usage": "abode",
+            "word": "ras(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31019.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 460,
+        "fields" : {
+            "english_usage": "bottle",
+            "word": "botal(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4275.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 461,
+        "fields" : {
+            "english_usage": "coffee",
+            "word": "cofaidh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7358.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 462,
+        "fields" : {
+            "english_usage": "dream on",
+            "word": "chan eil agad ach bruadar!",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/6141.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 463,
+        "fields" : {
+            "english_usage": "apple",
+            "word": "ubhal(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 464,
+        "fields" : {
+            "english_usage": "bottom",
+            "word": "ms(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/15414.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 465,
+        "fields" : {
+            "english_usage": "cold",
+            "word": "fuar",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11851.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 466,
+        "fields" : {
+            "english_usage": "dress",
+            "word": "dreasa(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10083.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 467,
+        "fields" : {
+            "english_usage": "April",
+            "word": "An Giblean(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/36930.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 468,
+        "fields" : {
+            "english_usage": "box",
+            "word": "bugsa(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/53532.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 469,
+        "fields" : {
+            "english_usage": "colour",
+            "word": "dath(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9193.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 470,
+        "fields" : {
+            "english_usage": "drink",
+            "word": "deoch(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9683.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 471,
+        "fields" : {
+            "english_usage": "arm",
+            "word": "girdean(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31821.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 472,
+        "fields" : {
+            "english_usage": "boy",
+            "word": "bucach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/52089.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 473,
+        "fields" : {
+            "english_usage": "computer",
+            "word": "coimpiutair(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/24214.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 474,
+        "fields" : {
+            "english_usage": "drive",
+            "word": "iomain",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/24784.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 475,
+        "fields" : {
+            "english_usage": "army",
+            "word": "armailt(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23464.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 476,
+        "fields" : {
+            "english_usage": "brain",
+            "word": "eanchainn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10567.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 477,
+        "fields" : {
+            "english_usage": "consonant",
+            "word": "consan(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31656.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 478,
+        "fields" : {
+            "english_usage": "drug",
+            "word": "druga(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31124.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 479,
+        "fields" : {
+            "english_usage": "Art",
+            "word": "Art(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2845.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 480,
+        "fields" : {
+            "english_usage": "bread",
+            "word": "aran(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2763.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 481,
+        "fields" : {
+            "english_usage": "contract",
+            "word": "cmhnant(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/8995.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 482,
+        "fields" : {
+            "english_usage": "dry",
+            "word": "seac",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23013.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 483,
+        "fields" : {
+            "english_usage": "artist",
+            "word": "ealanaiche(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/43350.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 484,
+        "fields" : {
+            "english_usage": "break",
+            "word": "bris",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30311.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 485,
+        "fields" : {
+            "english_usage": "cook",
+            "word": "ccaire(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/7328.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 486,
+        "fields" : {
+            "english_usage": "dust",
+            "word": "dust(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42966.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 487,
+        "fields" : {
+            "english_usage": "attack",
+            "word": "ionnsaigh(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13606.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 488,
+        "fields" : {
+            "english_usage": "breakfast",
+            "word": "bracaist(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29764.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 489,
+        "fields" : {
+            "english_usage": "cool",
+            "word": "fionnar",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/24334.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 490,
+        "fields" : {
+            "english_usage": "ear tingling",
+            "word": "dd(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39708.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 491,
+        "fields" : {
+            "english_usage": "August (Aug.)",
+            "word": "Lnastal (Lna.)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2215.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 492,
+        "fields" : {
+            "english_usage": "bridge",
+            "word": "drochaid(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10111.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 493,
+        "fields" : {
+            "english_usage": "copper",
+            "word": "copar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/24338.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 494,
+        "fields" : {
+            "english_usage": "earth(en)ware pitcher",
+            "word": "pige-ruadh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/54437.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 495,
+        "fields" : {
+            "english_usage": "author",
+            "word": "ghdar(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23551.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 496,
+        "fields" : {
+            "english_usage": "admit to a brotherhood",
+            "word": "brithrich",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42103.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 497,
+        "fields" : {
+            "english_usage": "corn",
+            "word": "doire(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/51834.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 498,
+        "fields" : {
+            "english_usage": "east",
+            "word": "ear(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31727.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 499,
+        "fields" : {
+            "english_usage": "baby",
+            "word": "bibidh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3435.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 500,
+        "fields" : {
+            "english_usage": "brown",
+            "word": "donn",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10038.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 501,
+        "fields" : {
+            "english_usage": "corner",
+            "word": "crnair(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/43348.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 502,
+        "fields" : {
+            "english_usage": "eat your fill",
+            "word": "ith ln do bhdh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13688.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 503,
+        "fields" : {
+            "english_usage": "back",
+            "word": "cl(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29663.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 504,
+        "fields" : {
+            "english_usage": "build up",
+            "word": "neartaich",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16417.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 505,
+        "fields" : {
+            "english_usage": "count (title)",
+            "word": "cunnta(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/35860.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 506,
+        "fields" : {
+            "english_usage": "edge",
+            "word": "oir(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16708.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 507,
+        "fields" : {
+            "english_usage": "back",
+            "word": "cl(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29663.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 508,
+        "fields" : {
+            "english_usage": "building",
+            "word": "aitreabh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/1498.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 509,
+        "fields" : {
+            "english_usage": "country",
+            "word": "dthaich(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10430.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 510,
+        "fields" : {
+            "english_usage": "egg",
+            "word": "ugh(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 511,
+        "fields" : {
+            "english_usage": "bad",
+            "word": "dona",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10033.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 512,
+        "fields" : {
+            "english_usage": "burn (tr. &amp",
+            "word": "loisg",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/14565.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 513,
+        "fields" : {
+            "english_usage": "court",
+            "word": "cirt(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/8809.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 514,
+        "fields" : {
+            "english_usage": "eight (used in counting if followed by a noun)",
+            "word": "ochd(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16633.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 515,
+        "fields" : {
+            "english_usage": "bag",
+            "word": "baga(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3016.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 516,
+        "fields" : {
+            "english_usage": "bus",
+            "word": "bus(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4762.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 517,
+        "fields" : {
+            "english_usage": "cow (female of domesticated cattle)",
+            "word": "b(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4136.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 518,
+        "fields" : {
+            "english_usage": "an eighteenth",
+            "word": "ochdamh deug",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/16637.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 519,
+        "fields" : {
+            "english_usage": "ball (toy)",
+            "word": "bl(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3151.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 520,
+        "fields" : {
+            "english_usage": "buy",
+            "word": "ceannaich",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5447.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 521,
+        "fields" : {
+            "english_usage": "crowd",
+            "word": "domhladas(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10029.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 522,
+        "fields" : {
+            "english_usage": "eighty (80)",
+            "word": "ochdad(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31391.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 523,
+        "fields" : {
+            "english_usage": "banana",
+            "word": "banana(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32689.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 524,
+        "fields" : {
+            "english_usage": "cake",
+            "word": "cic(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/38233.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 525,
+        "fields" : {
+            "english_usage": "cry",
+            "word": "igh(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/50912.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 526,
+        "fields" : {
+            "english_usage": "election address",
+            "word": "raid taghaidh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/45622.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 527,
+        "fields" : {
+            "english_usage": "band",
+            "word": "bann(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/28995.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 528,
+        "fields" : {
+            "english_usage": "call",
+            "word": "goir",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/12848.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 529,
+        "fields" : {
+            "english_usage": "cup",
+            "word": "cupa(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9024.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 530,
+        "fields" : {
+            "english_usage": "check",
+            "word": "seac(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/44537.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 531,
+        "fields" : {
+            "english_usage": "bank (financial institution)",
+            "word": "banca(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3210.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 532,
+        "fields" : {
+            "english_usage": "camera",
+            "word": "camara(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5035.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 533,
+        "fields" : {
+            "english_usage": "curved",
+            "word": "lbte",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/24477.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 534,
+        "fields" : {
+            "english_usage": "ten (;0) (eleven/twelve used(h)euge.g.aon deug)",
+            "word": "deich(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9652.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 535,
+        "fields" : {
+            "english_usage": "bar (establishment)",
+            "word": "br(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3251.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 536,
+        "fields" : {
+            "english_usage": "camp",
+            "word": "campa(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/33097.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 537,
+        "fields" : {
+            "english_usage": "cut",
+            "word": "brr",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/52496.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 538,
+        "fields" : {
+            "english_usage": "energy",
+            "word": "spird(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/35456.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 539,
+        "fields" : {
+            "english_usage": "bathroom",
+            "word": "semar-ionnlaid(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 540,
+        "fields" : {
+            "english_usage": "car",
+            "word": "cr(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5166.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 541,
+        "fields" : {
+            "english_usage": "dance",
+            "word": "dannsa(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9172.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 542,
+        "fields" : {
+            "english_usage": "engine",
+            "word": "einnsean(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31261.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 543,
+        "fields" : {
+            "english_usage": "beach litter",
+            "word": "murag(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/26304.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 544,
+        "fields" : {
+            "english_usage": "card",
+            "word": "cairt(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23874.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 545,
+        "fields" : {
+            "english_usage": "dark",
+            "word": "dorcha",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31708.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 546,
+        "fields" : {
+            "english_usage": "evening star",
+            "word": "reul-fheasgair(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 547,
+        "fields" : {
+            "english_usage": "beard",
+            "word": "fesag(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/52994.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 548,
+        "fields" : {
+            "english_usage": "carry on with",
+            "word": "lean air",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/14033.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 549,
+        "fields" : {
+            "english_usage": "date (year)",
+            "word": "ceann-bliadhna(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/24506.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 550,
+        "fields" : {
+            "english_usage": "exercise (physical and abstract)",
+            "word": "eacarsaich(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25024.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 551,
+        "fields" : {
+            "english_usage": "beat (also in music)",
+            "word": "buille(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/30325.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 552,
+        "fields" : {
+            "english_usage": "cat that sleeps by the fire",
+            "word": "cat-grosaich(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5325.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 553,
+        "fields" : {
+            "english_usage": "daughter",
+            "word": "irinn(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/43057.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 554,
+        "fields" : {
+            "english_usage": "expensive",
+            "word": "daor",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/9177.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 555,
+        "fields" : {
+            "english_usage": "beautiful",
+            "word": "maiseach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31951.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 556,
+        "fields" : {
+            "english_usage": "catch",
+            "word": "ceap",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/36670.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 557,
+        "fields" : {
+            "english_usage": "day",
+            "word": "latha(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/13890.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 558,
+        "fields" : {
+            "english_usage": "burst",
+            "word": "spreadh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/36873.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 559,
+        "fields" : {
+            "english_usage": "bed (for sleeping)",
+            "word": "leabaidh(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31224.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 560,
+        "fields" : {
+            "english_usage": "ceiling",
+            "word": "mullach-semair(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 561,
+        "fields" : {
+            "english_usage": "dead person",
+            "word": "marbh(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/42239.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 562,
+        "fields" : {
+            "english_usage": "eye",
+            "word": "sil(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20048.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 563,
+        "fields" : {
+            "english_usage": "bedroom",
+            "word": "semar-cadail(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 564,
+        "fields" : {
+            "english_usage": "cell (in general (except for church cell)",
+            "word": "cealla(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23930.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 565,
+        "fields" : {
+            "english_usage": "phone",
+            "word": "fnaig",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/11716.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 566,
+        "fields" : {
+            "english_usage": "deaf",
+            "word": "bodhar",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4183.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 567,
+        "fields" : {
+            "english_usage": "face",
+            "word": "aodann(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2653.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 568,
+        "fields" : {
+            "english_usage": "beef",
+            "word": "mairtfheoil(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23647.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 569,
+        "fields" : {
+            "english_usage": "centimetre (cm)",
+            "word": "ceudameatair (cm)(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23942.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 570,
+        "fields" : {
+            "english_usage": "death",
+            "word": "aog(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2320.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 571,
+        "fields" : {
+            "english_usage": "fall",
+            "word": "sil",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29397.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 572,
+        "fields" : {
+            "english_usage": "beer",
+            "word": "leann(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31904.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 573,
+        "fields" : {
+            "english_usage": "chair",
+            "word": "sithear(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32188.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 574,
+        "fields" : {
+            "english_usage": "December (Dec.)",
+            "word": "An Dbhlachd (Dbh.)(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/2063.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 575,
+        "fields" : {
+            "english_usage": "fall",
+            "word": "sil",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/29397.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 576,
+        "fields" : {
+            "english_usage": "bend",
+            "word": "car(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/5167.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 577,
+        "fields" : {
+            "english_usage": "cheap",
+            "word": "cunnarach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/39582.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 578,
+        "fields" : {
+            "english_usage": "deep",
+            "word": "domhain",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31707.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 579,
+        "fields" : {
+            "english_usage": "family",
+            "word": "teaghlach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/20401.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 580,
+        "fields" : {
+            "english_usage": "cheese",
+            "word": "cise(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/4932.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 581,
+        "fields" : {
+            "english_usage": "diamond",
+            "word": "daoimean(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/24630.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 582,
+        "fields" : {
+            "english_usage": "famous",
+            "word": "irdheirc",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 583,
+        "fields" : {
+            "english_usage": "bicycle",
+            "word": "rothair(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/32140.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 584,
+        "fields" : {
+            "english_usage": "chicken meat",
+            "word": "circfheoil(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 585,
+        "fields" : {
+            "english_usage": "die",
+            "word": "bsaich",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/3310.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 586,
+        "fields" : {
+            "english_usage": "fan",
+            "word": "gaotharan(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25108.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 587,
+        "fields" : {
+            "english_usage": "big",
+            "word": "mr",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/23115.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 588,
+        "fields" : {
+            "english_usage": "child",
+            "word": "patach(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/43850.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 589,
+        "fields" : {
+            "english_usage": "dig up the ground",
+            "word": "disg an talamh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/51838.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 590,
+        "fields" : {
+            "english_usage": "fan",
+            "word": "gaotharan(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25108.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 591,
+        "fields" : {
+            "english_usage": "bill (legal document)",
+            "word": "bile(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/52993.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 592,
+        "fields" : {
+            "english_usage": "church",
+            "word": "eaglais(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10527.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 593,
+        "fields" : {
+            "english_usage": "dinner",
+            "word": "diathad(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31526.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 594,
+        "fields" : {
+            "english_usage": "farm(stead)",
+            "word": "tuathanas(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/25111.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 595,
+        "fields" : {
+            "english_usage": "billion (;",
+            "word": "billean(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/31311.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 596,
+        "fields" : {
+            "english_usage": "circle",
+            "word": "iadh",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/43994.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 597,
+        "fields" : {
+            "english_usage": "direction",
+            "word": "slighe-stiiridh(fem.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 598,
+        "fields" : {
+            "english_usage": "fast(ing) day",
+            "word": "latha-traisg(masc.)",
+            "url": "None"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 599,
+        "fields" : {
+            "english_usage": "bird",
+            "word": "eun(masc.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/10809.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 600,
+        "fields" : {
+            "english_usage": "city",
+            "word": "cathair(fem.)",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/54123.mp3"
+        }
+},
+{
+        "model":"pronounce_gaelic.ReferenceWord",
+        "pk": 601,
+        "fields" : {
+            "english_usage": "dirty",
+            "word": "salach",
+            "url": "http://s3-eu-west-1.amazonaws.com/lg-dic/18478.mp3"
+        }
+}
+]
