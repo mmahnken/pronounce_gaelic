@@ -42,5 +42,3 @@ d3Chart._drawPoints = function(el, scales, data) {
   point.exit()
       .remove();
 };
-
-module.exports = d3Chart;

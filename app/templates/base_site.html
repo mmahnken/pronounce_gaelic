@@ -2,7 +2,8 @@
 <html>
     <head>
         <link href="{{ STATIC_URL }}css/site.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap-paper.min.css">
         {% block css %}
         {% endblock %}
         {% block title %}
@@ -25,22 +26,20 @@
 
     <body>
         {% block nav %}
-        <ul class="nav nav-pills">
+        <ul class="nav nav-tabs">
             <li role="presentation">Index</li>
             <li role="presentation">Play game</li>
             <li role="presentation">About</li>
         </ul>
         {% endblock %}
 
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                {% block content %}{% endblock %}
-            </div>
-        </div>
+        
+        {% block content %}{% endblock %}
         
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="{{STATIC_URL}}/js/vendor/jquery.cookie.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.10.0/react-with-addons.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.10.0/react-with-addons.js"></script>
         
         {% block javascript %}{% endblock %}
 

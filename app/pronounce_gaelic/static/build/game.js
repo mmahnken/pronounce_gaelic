@@ -1,7 +1,5 @@
 /** @jsx React.DOM */
 
-var AudioVisualization = require('AudioVisualization');
-
 var Recording = React.createClass({displayName: 'Recording',
     render: function() {
         return (
@@ -15,9 +13,59 @@ var Recording = React.createClass({displayName: 'Recording',
     }
 });
 
-var WordRow = React.createClass({displayName: 'WordRow',
+var WordArea = React.createClass({displayName: 'WordArea',
+    // componentDidMount: function() {
+    //     var refAudioEl = this.refs.refAudio.getDOMNode();
+    //     $(refAudioEl).on('playing', this.props.togglePlaying(refAudioEl));
+
+    //     $(refAudioEl).on('ended', this.props.togglePlaying(refAudioEl)); 
+
+
+    // },
+    // componentWillUnMount: function() {
+    //     var refAudioEl = this.refs.refAudio.getDOMNode();
+    //     refAudioEl.removeEventListener('playing', this.props.togglePlaying(refAudioEl));
+
+    //     refAudioEl.removeEventListener('ended', this.props.togglePlaying(refAudioEl));
+    // },
+    render: function() {
+        var recordings_list = [];
+        this.props.recordings.forEach(function(r) {
+            recordings_list.push(Recording( {data:r} ));
+        }); 
+        return (
+                React.DOM.div(null, 
+                    React.DOM.div( {className:"row"}, 
+                        React.DOM.div( {className:"panel panel-primary"}, 
+                            React.DOM.div( {className:"panel-heading"}, 
+                                React.DOM.h3( {className:"panel-title"}, "Native Pronunciation")
+                            ),
+                            React.DOM.div( {className:"panel-body"}, 
+                                React.DOM.audio( {controls:true, ref:"refAudio"}, 
+                                    React.DOM.source( {src:this.props.word.url, type:"audio/mpeg"})
+                                )
+                            )
+                        ),
+                        
+                        React.DOM.div( {className:"panel panel-info"}, 
+                            React.DOM.div( {className:"panel-heading"}, 
+                                React.DOM.h3( {className:"panel-title"}, "Your recordings")
+                            ),
+                            React.DOM.div( {className:"panel-body", id:"recordings"}, 
+                                recordings_list
+                            )
+                        )
+                    )
+                )
+        );
+    }
+});
+
+
+var AudioController = React.createClass({displayName: 'AudioController',
     getInitialState: function() {
         return ({
+            recording: false,
             audioContext: null,
             audioInput: null,
             realAudioInput: null,
@@ -30,7 +78,7 @@ var WordRow = React.createClass({displayName: 'WordRow',
             domain: {x:[], y:[]}
         });
     },
-    gotStream: function(stream) {
+    gotStream: function(stream, refAudioBoolean) {
         inputPoint = this.state.audioContext.createGain();
 
         // Create an AudioNode from the stream.
@@ -38,17 +86,43 @@ var WordRow = React.createClass({displayName: 'WordRow',
         this.state.audioInput = this.state.realAudioInput;
         this.state.audioInput.connect(inputPoint);
 
-        this.state.audioRecorder = new Recorder( inputPoint );
+        if (!refAudioBoolean){
+            this.state.audioRecorder = new Recorder( inputPoint );
+        }
 
-        //
     },
     updateViz: function(){
-        if (this.state.recording) {
+        if (this.state.recording || this.state.playing) {
             var bufferLength = this.state.analyser.frequencyBinCount;
             var dataArray = new Uint8Array(bufferLength);
             this.state.analyser.getByteTimeDomainData(dataArray);
             this.setState({d3Data: dataArray});
         } 
+    },
+    updateStream: function(stream){
+        this.gotStream(stream, true);
+    },
+    togglePlaying: function(refAudioEl) {
+        if (this.state.playing) {
+            // stop visualizing
+            clearInterval();
+            this.setState({
+                playing: false
+            });
+        } else {
+            alert('toggling playing');
+            this.updateStream(refAudioEl);
+            // start visualizing
+            var analyser = this.state.audioContext.createAnalyser();
+            this.state.realAudioInput.connect(analyser);
+            analyser.fftSize = 256; 
+            this.setState({
+                domain: {x: [0, analyser.fftSize], y: [0, analyser.fftSize]},
+                analyser: analyser,
+                playing: true
+            });
+            setInterval(this.updateViz, 200);
+        }
     },
     toggleRecording: function(event) {
         if (this.state.recording) {
@@ -61,7 +135,6 @@ var WordRow = React.createClass({displayName: 'WordRow',
                 buttonText: 'Pronounce it!'
             });
             this.createDownloadLink();
-
         } else {
             // start recording
             if (!this.state.audioRecorder) {
@@ -84,7 +157,7 @@ var WordRow = React.createClass({displayName: 'WordRow',
             // fourier transform visualization
             setInterval(this.updateViz, 200);
 
-        }
+        } 
     },
     createDownloadLink: function() {
         var recorder = this.state.audioRecorder;
@@ -96,13 +169,41 @@ var WordRow = React.createClass({displayName: 'WordRow',
         
         var filename = new Date().toISOString() + '.wav';
         
-        var recording = {url: url, filename: filename};
+        var recording = {url: url, filename: filename, word: this.props.currentWord};
 
         var current_recordings = this.state.recordings;
         current_recordings.push(recording);
         this.setState({recordings: current_recordings});
+        this.persistAudio(blob);
     },
-    componentDidMount: function() {
+    persistAudio: function(blob) {
+        var formData = new FormData();
+        var audioData = new Blob([blob], { type: "audio/wav" });
+        debugger;        
+        formData.append("audioData", audioData, "blob.wav");
+        formData.append("filename", "testFile");
+        var csrftoken = $.cookie('csrftoken');
+        $.ajaxSetup({
+            beforeSend: function(xhr, settings) {
+                if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                    xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                }
+            }
+        });
+        $.ajax({
+            processData: false,
+            type: "POST",
+            url: '/pronounce_gaelic/save_audio', 
+            data: formData,
+            contentType: false
+        }).done(function(data) {
+            alert('persisted audio, '+data);
+        }).error(function(e){
+            console.log(e);
+            alert(e);
+        });
+    },
+    componentWillMount: function() {
         window.AudioContext = window.AudioContext || window.webkitAudioContext;
         this.state.audioContext = new AudioContext();
         this.initAudio();
@@ -132,56 +233,73 @@ var WordRow = React.createClass({displayName: 'WordRow',
         });
     },
     render: function() {
-        console.log(this.state.d3Data);
-        var recordings_list = [];
+        var recordings_list = []
+        var currentWord = this.props.currentWord;
         this.state.recordings.forEach(function(r) {
-            recordings_list.push(Recording( {data:r} ));
+            if (r.word.id == currentWord.id){
+                recordings_list.push(r);
+            }
         });
-        
-        return (
-                React.DOM.li( {className:"list-group-item"}, 
+        if (!this.state.recording && !this.state.playing){
+            return (
+                React.DOM.div(null, 
                     React.DOM.div( {className:"row"}, 
-                        React.DOM.div( {className:"col-md-4"}, 
-                            React.DOM.dl(null, 
-                                React.DOM.dt(null, this.props.word.word),
-                                React.DOM.dd(null, this.props.word.english_usage)
-                            ),
-                            React.DOM.audio( {controls:true}, 
-                                React.DOM.source( {src:this.props.word.url, type:"audio/mpeg"})
-                            )
+                        React.DOM.dl( {className:"col-md-6"}, 
+                            React.DOM.dt(null, this.props.currentWord.word),
+                            React.DOM.dd(null, this.props.currentWord.english_usage)
                         ),
-                        React.DOM.div( {className:"col-md-4"}, 
-                            React.DOM.input( {type:"submit", value:this.state.buttonText, onClick:this.toggleRecording, className:this.state.buttonClass} ),
-                            React.DOM.div( {id:"recordings"}, 
-                                recordings_list
-                            )
-                        ),
-                        React.DOM.div( {className:"col-md-4"}, 
-                            AudioVisualization( {data:this.state.d3Data, domain:this.state.domain})
+                        React.DOM.div( {className:"col-md-6"}, 
+                            React.DOM.input( {type:"submit", 
+                                   value:this.state.buttonText, 
+                                   onClick:this.toggleRecording, 
+                                   className:this.state.buttonClass} )
                         )
-                    )
+                    ),
+                    WordArea( 
+                        {word:this.props.currentWord, 
+                        recordings:recordings_list,
+                        togglePlaying:this.togglePlaying} )
                 )
+            );
+        } else {
+            return (
+            React.DOM.div(null, 
+                React.DOM.div( {className:"row"}, 
+                    React.DOM.dl( {className:"col-md-6"}, 
+                        React.DOM.dt(null, this.props.currentWord.word),
+                        React.DOM.dd(null, this.props.currentWord.english_usage)
+                    ),
+                    React.DOM.div( {className:"col-md-6"}, 
+                        React.DOM.input( {type:"submit", 
+                               value:this.state.buttonText, 
+                               onClick:this.toggleRecording, 
+                               className:this.state.buttonClass} )
+                    )
+                ),
+                
+                React.DOM.div(null, 
+                    AudioVisualization( {data:this.state.d3Data, domain:this.state.domain} )
+                ),
+                React.DOM.div(null, 
+                    WordArea( 
+                        {word:this.props.currentWord, 
+                        recordings:recordings_list, 
+                        togglePlaying:this.togglePlaying} )
+                )
+            )
         );
+        }
+        
     }
 });
 
-var WordArea = React.createClass({displayName: 'WordArea',
-    render: function() {
-        var words_list = [];
-        this.props.words.forEach(function(word) {
-            words_list.push(WordRow( {word:word} ));
-        });
-        return (
-            React.DOM.ul( {className:"list-group"}, words_list)
-        );
-    }
-});
 
 var Game = React.createClass({displayName: 'Game',
     getInitialState: function() {
         return ({
             playing: false,
-            words: []
+            words: [],
+            currentWord: {}
         });
     },
     loadWords: function() {
@@ -191,7 +309,8 @@ var Game = React.createClass({displayName: 'Game',
             type: 'get',
             success: function(data) {
                 this.setState({
-                    words: data.words
+                    words: data.words,
+                    currentWord: data.words[0]
                 });
             }.bind(this)
         });
@@ -207,13 +326,39 @@ var Game = React.createClass({displayName: 'Game',
         this.loadWords();
     },
     render: function(){
-        return (
+        var words_list = [];
+        var currentWord = this.state.currentWord;
+        var words = this.state.words;
+        if (Object.getOwnPropertyNames(currentWord).length !== 0 && this.state.words.length !== 0) {
+            words.forEach(function(word, i) {
+                //change this
+                if (word.word == currentWord.word) {
+                    words_list.push(React.DOM.a( {href:"#", className:"list-group-item active"}, word.word));
+                } else {
+                    words_list.push(React.DOM.a( {href:"#", className:"list-group-item"}, word.word));
+                }      
+            });
+
+            return (
             React.DOM.div(null, 
-                WordArea( {words:this.state.words} )
+                React.DOM.div( {className:"list-group col-md-2"}, 
+                    words_list
+                ),
+                React.DOM.div( {className:"col-md-10"}, 
+                    AudioController( {words:this.state.words, currentWord:this.state.currentWord} )
+                )
             )
             );
+        } else {
+            return (React.DOM.div(null, "Loading... " ));
+        }
+        
     }
 });
 
+function csrfSafeMethod(method) {
+    // these HTTP methods do not require CSRF protection
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
 
 React.renderComponent(Game( {wordsUrl:"/pronounce_gaelic/easy/words"} ), document.getElementById('game'));

@@ -3,6 +3,10 @@ body {
     font-family: Futura;
 }
 
+.nav-tabs {
+    padding-bottom: 4em;
+}
+
 #header {
     font-size: 3.0em;
     background-color: #000000;
@@ -65,4 +69,8 @@ input {
     color: white;
     background-color: black;
     padding: 0.4em;
+}
+
+button {
+    outline: none;
 }

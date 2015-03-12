@@ -9,5 +9,6 @@ urlpatterns = patterns('',
     url(r'^(?P<word_id>\d+)/process', views.process, name='process'),
     # ex: /start/
     url(r'^start', views.start, name='start'),
-    url(r'^(?P<level>\w+)/words', views.start_words, name='start_words')
+    url(r'^(?P<level>\w+)/words', views.start_words, name='start_words'),
+    url(r'^save_audio', views.save_audio, name='save_audio')
 )

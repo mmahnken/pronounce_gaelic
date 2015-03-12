@@ -1,7 +1,5 @@
 /** @jsx React.DOM */
 
-var d3Chart = require('d3Chart');
-
 var AudioVisualization = React.createClass({displayName: 'AudioVisualization',
   getInitialState: function() {
     return({
@@ -120,5 +118,3 @@ var AudioVisualization = React.createClass({displayName: 'AudioVisualization',
     );
   }
 });
-
-module.exports = AudioVisualization;

@@ -1,7 +1,7 @@
 {% extends "base_site.html" %}
 
 {% block nav %}
-    <ul class="nav nav-pills">
+    <ul class="nav nav-tabs">
         <li role="presentation" class="active"><a href="/pronounce_gaelic">Home</a></li>
         <li role="presentation"><a href="/pronounce_gaelic/start">Play game</a></li>
         <li role="presentation"><a href="#">About</a></li>
@@ -9,5 +9,21 @@
 {% endblock %}
 
 {% block content %}
-    <h1>You're in the index!</h1>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Erin go braugh!</h1>
+        <p>Meaning "Irish Forever", Éirinn go Brách is an angelicized version a popular Gaelic phrase. It's easier to learn to pronounce other Gaelic phrases with data-powered comparisons. It's even easier if you're playing a game.</p>
+        <p><a class="btn btn-primary btn-lg" href="/pronounce_gaelic/start">Start Game</a></p>
+    </div>
+    <audio controls>
+        
+        <source src="http://s3-eu-west-1.amazonaws.com/lg-dic/24506.mp3" type="audio/mpeg" data-reactid=".0.1.0.1.0.0.1.0.0">
+    </audio>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>
+        $("audio").on('playing', function() {
+            alert('playing');
+        });
+    </script>
+</div>
 {% endblock %}

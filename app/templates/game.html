@@ -1,7 +1,7 @@
 {% extends "base_site.html" %}
 
 {% block nav %}
-    <ul class="nav nav-pills">
+    <ul class="nav nav-tabs">
         <li role="presentation"><a href="/pronounce_gaelic">Home</a></li>
         <li role="presentation" class="active"><a href="/pronounce_gaelic/start">Play game</a></li>
         <li role="presentation"><a href="#">About</a></li>
@@ -9,13 +9,22 @@
 {% endblock %}
 
 {% block content %}
-    <h1>You're in the game.</h1>
+<div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="page-header">
+                <h1>Time to learn some Gaelic.</h1>
+                </div>
     <div id="game"></div>
+            </div>
+        </div>
+    
 {% endblock %}
 
 {% block javascript %}
     <script src="http://d3js.org/d3.v3.js"></script>
     <script src="{{STATIC_URL}}js/vendor/Recorderjs/recorder.js"></script>
+    <script src="{{ STATIC_URL }}build/d3Chart.js"></script>
+    <script src="{{ STATIC_URL }}build/AudioVisualization.js"></script>
     <script src="{{ STATIC_URL }}build/game.js"></script>
 
 {% endblock %}
