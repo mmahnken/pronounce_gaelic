@@ -1,0 +1,6 @@
+{% extends "base_site.html" %}
+{% block content %}
+{% for word in referenceword_list %}
+<p>{{ word.word }}: {{ word.english_usage }}</p>
+{% endfor %}
+{% endblock %}

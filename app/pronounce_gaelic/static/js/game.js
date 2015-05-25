@@ -115,13 +115,13 @@ var AudioController = React.createClass({
             // start visualizing
             var analyser = this.state.audioContext.createAnalyser();
             this.state.realAudioInput.connect(analyser);
-            analyser.fftSize = 256; 
+            analyser.fftSize = 1000; 
             this.setState({
                 domain: {x: [0, analyser.fftSize], y: [0, analyser.fftSize]},
                 analyser: analyser,
                 playing: true
             });
-            setInterval(this.updateViz, 200);
+            setInterval(this.updateViz, 50);
         }
     },
     toggleRecording: function(event) {
@@ -178,10 +178,8 @@ var AudioController = React.createClass({
     },
     persistAudio: function(blob) {
         var formData = new FormData();
-        var audioData = new Blob([blob], { type: "audio/wav" });
-        debugger;        
-        formData.append("audioData", audioData, "blob.wav");
-        formData.append("filename", "testFile");
+        formData.append("blob", blob);
+
         var csrftoken = $.cookie('csrftoken');
         $.ajaxSetup({
             beforeSend: function(xhr, settings) {
@@ -200,7 +198,7 @@ var AudioController = React.createClass({
             alert('persisted audio, '+data);
         }).error(function(e){
             console.log(e);
-            alert(e);
+            alert(e.statusText);
         });
     },
     componentWillMount: function() {
